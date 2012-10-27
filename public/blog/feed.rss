@@ -1,0 +1,1696 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Siwe's site</title>
+    <description>Siwe's site Blog Posts</description>
+    <link>http://192.168.1.35/blog</link>
+    <item>
+      <title>三种Ruby论坛的比较( comparasion for 3 ruby forums )</title>
+      <description>&lt;p&gt;最近在考虑是不是要做个论坛，因为有好几个项目需要。但是动手之前，还是先看看有没有现成的轮子。 论坛按理说应该是最常见的应用。比如大名鼎鼎的 JIVE (JAVA 论坛），那性能叫一个惊人（使用了各种cache 等优化） 。( I need a forum application for my projects, but before writing my own, I plan to seek for an open sourced Ruby forum which should be very commonly used application and many candidates. Recall the year 2006, when I first time dive into the open source project, the famous JIVE (java forum) impressed me by its extremely high performance  ) &lt;/p&gt;
+&lt;p&gt;google了一下， 找到三个开源的RUBY论坛： ( &lt;a href="http://www.quora.com/What-is-the-most-mature-forum-software-built-in-Ruby-on-Rails"&gt;http://www.quora.com/What-is-the-most-mature-forum-software-built-in-Ruby-on-Rails&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;1. beast (Rails 2.3.x ),&amp;#160; altered beast (Rails3.x )  ( https://github.com/stiff/altered_beast ) &lt;/p&gt;
+&lt;p&gt;2. forem (Rails3 ), 据说是最好的Ruby 论坛 (said to be the best one) &lt;/p&gt;
+&lt;p&gt;3. rborad. 据说也不错。(sounds good) &lt;/p&gt;
+&lt;p&gt;结果如下：&lt;/p&gt;
+&lt;p&gt;1.&lt;br /&gt;&lt;img rel="450x450" alt="Beast Looking" title="Beast Looking" src="/system/images/BAhbB1sHOgZmIi0yMDEyLzEwLzIzLzA5XzUwXzI4XzU4X2JlYXN0X2xvb2tpbmcucG5nWwg6BnA6CnRodW1iIg00NTB4NDUwPg/beast_looking.png" height="182" width="450" /&gt;&lt;br /&gt;altered Beast 是一个独立的forum. 如果你不用跟其他系统相结合，那么就用它吧！&amp;#160; 它有现成的皮肤，看起来似乎不错。不过不知道以后改版的话是否很麻烦。 ( altered beast is a standalone system . It's really a good choice if you don't need it to be a "plugin" or something similar and integrate it to existing system. It has its own outlooking&amp;amp;skin. )&amp;#160;&lt;/p&gt;
+&lt;p&gt;缺点：一年没更新了。( not updated in this year) &lt;/p&gt;
+&lt;p&gt;2.&amp;#160; forem. 非常棒，各种插件都是最流行最新颖的。作者也是个RUBY大牛。这个系统是一个插件，需要跟现有的系统进行集成，而且做成了一个GEM的形式。如果你没有现成的系统的话，就用不了。看你的需求了。 另外，前台的皮肤被剥离出来，做为一个独立的gem。如果你需要一个论坛插件，集成到现有系统当中，而且定制页面，那么forem是你的第一选择。 ( forem is awesome, it uses many of the cool and fancy, popular gems. the author is a top Ruby programmer.&amp;#160; Forem is not a standalone application, but a rubygem, which need to be used as a plugin/module for existing system. and its outlooking is highly customizable/flexible.&amp;#160; If you want your existing application have forum supported and the outlooking customized, then Forem is your first choice! ) &lt;/p&gt;
+&lt;p&gt;3. rboard:&amp;#160; 它的代码已经看不到了。官方站点只有一句话：rBoard曾经是非常棒的RUBY论坛，但是现在它被 Forem 取代了。 看起来很苍凉啊。( its source code is gone, there's only 1 README file left, saying:&amp;#160; rboard was once a kick-ass forum, but now replaced by Forem... ) &lt;/p&gt;</description>
+      <pubDate>Tue, 23 Oct 2012 01:04:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/comparasion-for-ruby-forums</link>
+    </item>
+    <item>
+      <title>我的特殊号码又来了。(My special Number...) </title>
+      <description>&lt;p&gt;&lt;img src="/system/images/BAhbB1sHOgZmIiUyMDEyLzEwLzIyLzA1XzAwXzU2XzYxMl8yMjIyLlBOR1sIOgZwOgp0aHVtYiINNDUweDQ1MD4/2222.PNG" title="2222" alt="2222" rel="450x450" width="450" height="112" /&gt;&lt;/p&gt;
+&lt;p&gt;stackoverflow, 2222 ... 特2.。。 ( my score on stack overflow... &amp;#160;number"2" in Chinese means silly, foolish... ^_^ )&lt;/p&gt;</description>
+      <pubDate>Sun, 21 Oct 2012 21:00:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/my-special-number</link>
+    </item>
+    <item>
+      <title>很有用的命令： apt-get build-dep some_name (very useful command: apt-get build-dep) </title>
+      <description>&lt;p&gt;今早，我在给一个新系统ubuntu安装nginx时，遇到了几个依赖包没有解决的问题。发现这个命令很好用：&lt;/p&gt;
+&lt;p&gt;$ sudo apt-get build-dep nginx&lt;/p&gt;
+&lt;p&gt;它会自动给你安装所有的依赖包。省的一个一个去找了。帅！&lt;/p&gt;</description>
+      <pubDate>Thu, 18 Oct 2012 22:44:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/ubuntu-build-dep-command</link>
+    </item>
+    <item>
+      <title>Grails 吐槽  ( complains about Grails) </title>
+      <description>&lt;p&gt;1. 不如Ruby 直观。语言比较拖拽，繁琐，估计是受了java的影响。例如，按照官方文档： ( not as expressive as Ruby.&amp;#160;&amp;#160; maybe effected by Java, not as simple as Ruby. e.g. the query below is copied from its official document: ) &lt;/p&gt;
+&lt;pre&gt;// Dan brown's first book
+Book.find("from Book as b where b.author='Dan Brown'")
+
+// with a positional parameter Book.find("from Book as b where b.author=?", ['Dan Brown'])
+
+// with a named parameter Book.find("from Book as b where b.author=:author", [author: 'Dan Brown'])
+
+// use the query cache Book.find("from Book as b where b.author='Dan Brown'", [cache: true]) Book.find("from Book as b where b.author=:author", [author: 'Dan Brown'], [cache: true])
+
+// query by example def example = new Book(author: "Dan Brown") Book.find(example)
+
+// Using where criteria (since Grails 2.0) Person p = Person.find { firstName == "Bart" }
+&lt;/pre&gt;
+&lt;p&gt;
+你可以很容易的写出 Rails这样的代码吗？  ( Can you easily implement the Rails code below using Grails ? )&lt;/p&gt;
+&lt;pre&gt;book = Book.where("name = 'Jim'").last()    
+book = Book.last(:condition =&amp;gt; "name = 'Jim'" )
+&lt;/pre&gt;
+
+&lt;p&gt;2. 该约定的时候，允许不约定的情况存在。 例如，今天发现个情况：&amp;#160;&amp;#160; ( it allows the not-obey-convention cases which should obey the convention. e.g. I found this code written by others: )&lt;/p&gt;
+&lt;pre&gt;// grails/domain/yourpackage/Book.groovy 
+class Book {
+  // this is a domain class
+}
+// still in this file
+class Person {
+  // this is NOT a domain class, just an POJO
+}
+&lt;/pre&gt;
+&lt;p&gt;按照约定，Person必须是个Domain model, 因为它放在了 domain 目录里。但是实际上，它由于没有自己对应的 Person.groovy文件，（寄居在了Book.groovy 中）， Grails 又不会认定它是个Domain.&amp;#160; ( Following the coding convention, Person should be a "Domain model" and thus should exist in a separated file named "Person.groovy". But actually it is written in Book.groovy file, so Grails won't recognize it as a Domain class. )&lt;/p&gt;
+&lt;p&gt;相比之下， Rails 用显示代码声明的方式更好：&amp;#160; (Comparing to the case above, Rails' specific-declaration approach-- "&amp;lt; ActiveRecord::Base" is better )&lt;/p&gt;
+&lt;pre&gt;# persistent object
+class Device &amp;lt; ActiveRecord::Base
+end
+# regular object
+class IAmNotPersistent
+end&lt;/pre&gt;
+&lt;p&gt;3. 速度太慢。 比如， Rails console, Rails Unit test:&amp;#160; 新机器2秒，06年老机器10秒也启动了。&amp;#160; 但是Grails居然要等个1分钟，而且最奇葩的是，出来的居然是 java GUI. &amp;gt;_&amp;lt;&amp;#160;&amp;#160; 难道 Grails console == Swing/swt GUI ?&amp;#160;&amp;#160; ( too slow. when running Rails console, 10 seconds is enough for a 2006 made computer.&amp;#160; but for Grails, I have to wait for 60 seconds!!! and even stranger thing is that finally I got a java "GUI"!!!&amp;#160; Could it be that "grails console" results in a Swing GUI? oh my god...)&lt;/p&gt;
+&lt;p&gt;4. Bug 多多。例如， 我要在Rails 中显示某个图片，可以这样做&amp;#160;&amp;#160; ( too many bugs. e.g. I want to display a &amp;lt;img&amp;gt; element, I have many approaches: ) &lt;/p&gt;
+&lt;p&gt;&amp;lt;%= image_path src='some_file' %&amp;gt;&lt;/p&gt;
+&lt;p&gt;也可以这样做 (I can also use raw HTML) ：&amp;#160; &amp;lt;img src='/images/some_file' /&amp;gt;&amp;#160; ( some_file 放在 public/images目录下) ( some_file is put in public/images) &lt;/p&gt;
+&lt;p&gt;可以是个 soft link&amp;#160; (and the src could be a soft link ) &lt;/p&gt;
+&lt;p&gt;但是 Grails,&amp;#160; &amp;lt;%= g:image %&amp;gt; 既不支持 public 目录的方式，也不支持 soft link的方式，就喜欢报错。 我无语。在Rails 中可以有3+ 种解决问题的方式， Grails中居然都不行。 后来我临时搭建个 apache 服务器才暂时解决问题。( but in Grails, neither public/images nor the soft-link approach is supported.&amp;#160; Grails complains with lots of unreadable/un-debug-able messages. at last I have to setup a apache server to support the soft-link images , the problem was solved. my god... ) &lt;/p&gt;
+</description>
+      <pubDate>Wed, 17 Oct 2012 08:40:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/complains-about-grails</link>
+    </item>
+    <item>
+      <title>汉服( Chinese Traditional Suite )</title>
+      <description>&lt;p&gt;&lt;img rel="450x450" alt="Hanfu" title="Hanfu" src="http://siwei.me/system/resources/BAhbBlsHOgZmIiYyMDEyLzEwLzExLzE0XzU1XzI0XzcwM19oYW5mdS5qcGc/hanfu.jpg" height="200" width="450" /&gt;&lt;/p&gt;
+&lt;p&gt;哪个你觉得最好？（which one you like best ? OK I mean the girl... )&lt;/p&gt;
+&lt;p&gt;&lt;img rel="450x450" alt="Hanfu" title="Hanfu" src="http://siwei.me/system/resources/BAhbBlsHOgZmIiYyMDEyLzEwLzExLzE0XzU1XzI0XzcwM19oYW5mdS5qcGc/hanfu.jpg" /&gt;&lt;/p&gt;
+</description>
+      <pubDate>Thu, 11 Oct 2012 06:52:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/chinese-traditional-suite</link>
+    </item>
+    <item>
+      <title>linux下的文字识别软件tesseract ( OCR software in Linux: tesseract ) </title>
+      <description>&lt;p&gt;WINDOWS下有汉王OCR识别，免费的LINUX世界有啥与之对应呢？&amp;#160; 我找到了tesseract.&amp;#160;&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" href="http://code.google.com/p/tesseract-ocr/wiki/ReadMe"&gt;具体的官方文档在这里(click to view the offical doc )：&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;Ubuntu下的安装步骤： (setup steps under ubuntu ) &lt;/p&gt;
+&lt;p&gt;1.安装对应的lib (install the libs) &lt;/p&gt;
+&lt;pre&gt;sudo apt-get install autoconf automake libtool
+sudo apt-get install libpng12-dev
+sudo apt-get install libjpeg62-dev
+sudo apt-get install libtiff4-dev
+sudo apt-get install zlib1g-dev&lt;br /&gt;sudo apt-get install libleptonica  # install leptonica&lt;/pre&gt;
+&lt;p&gt;2. install tesseract 3.00
+&lt;/p&gt;
+&lt;pre&gt; $ wget http://tesseract-ocr.googlecode.com/files/tesseract-3.00.tar.gz 
+$tar zxvf tesseract-3.00.tar.gz 
+$ cd tesseract-3.00  &amp;amp;&amp;amp; ./configure &amp;amp;&amp;amp; make &amp;amp;&amp;amp; sudo make install
+&lt;/pre&gt;
+
+&lt;p&gt; 3. 安装中文字库  (install Chinese lib ) 
+&lt;/p&gt;
+&lt;pre&gt;$ wget http://tesseract-ocr.googlecode.com/files/chi_sim.traineddata.gz
+$ gunzip chi_sim.traineddata.gz
+$ sudo cp chi_sim.traineddata /usr/local/share/tessdata/
+&lt;/pre&gt;
+
+&lt;p&gt; 4. 把图片转换成tif 格式，然后使用：  (usage)    
+&lt;/p&gt;
+&lt;pre&gt;$ tesseract apple.tif result -l chi_sim &lt;/pre&gt; &lt;p&gt;注意的几点： (NOTICE) &lt;br /&gt;1. 速度比较慢。 不过可以忍受，免费的么。&amp;#160; (slow, but it doesn't matter, what I care is&amp;#160; tesseract is free )&lt;br /&gt;2. 图片的文字要做到水平。如果你的图片文字是斜的，会影响效果，建议先用“旋转”功能把图片处理一下。 ( if your text is not vertical, you have to make some changes to the image using "notation" tools or something ) &lt;/p&gt;</description>
+      <pubDate>Thu, 11 Oct 2012 04:04:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/tesseract-a-ocr-software-in-linux</link>
+    </item>
+    <item>
+      <title>如何把Selenium script转换成 Java Ruby代码 ( how to convert selenium script to Java/Ruby code ) </title>
+      <description>&lt;p&gt;In short :&amp;#160; open selenium IDE =&amp;gt; File =&amp;gt; Export TestCase as ... =&amp;gt;&amp;#160; Junit4 code / Ruby code &lt;/p&gt;
+&lt;p&gt;1. 写好test case in selenium IDE&lt;br /&gt;2. export them as java/junit4 scripts.&lt;br /&gt;3. create a maven project.&lt;br /&gt;4. $ mvn test&lt;br /&gt;5. 针对里面的ERROR,修改：&lt;/p&gt;
+&lt;pre&gt; 23     @Test
+ 24     public void shouldRun() throws Exception {
+ 25         driver.get(baseUrl + "jquery/test_case_should_omit_blanks_for_the_field_name_in_rules.html");
+ 26         // no input at all
+ 27         driver.findElement(By.cssSelector("input[type=\"submit\"]")).click();
+ 28         WebElement element = driver.findElement(By.cssSelector("#rsvErrors"));
+ 29         // ERROR: Caught exception [ERROR: Unsupported command [isTextPresent]]
+ 30         assertEquals(false, element.getText().contains("Please enter your first name."));
+ 31         // let's input all the fields.
+ 32         driver.findElement(By.name("first_name")).clear();
+ 33         driver.findElement(By.name("first_name")).sendKeys("Jim");
+ 34         driver.findElement(By.cssSelector("input[type=\"submit\"]")).click();
+ 35         // ERROR: Caught exception [ERROR: Unsupported command [getAlert]]
+ 36     }   
+&lt;/pre&gt;
+&lt;p&gt; 最后，发现 selenium 导出的代码，并不能100%跟原来的一致，例如 verifyTextPresent， 这个方法在java代码中就没有，所以，可以写一个。。。&lt;/p&gt;
+&lt;pre&gt; 66     protected void verifyTextPresent(String expected){
+ 67         WebElement body = driver.findElement(By.cssSelector("body"));
+ 68         assertEquals(true, body.getText().contains(expected));
+ 69     }
+
+&lt;/pre&gt;</description>
+      <pubDate>Thu, 11 Oct 2012 02:50:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/how-to-convert-selenium-script-to-java</link>
+    </item>
+    <item>
+      <title>Jenkins初体验 ( first sight of Jenkins ) </title>
+      <description>&lt;p&gt;跟CruiseControl, Hudson一样， Jenkins也是一个持续集成工具。 Jenkins 是一个英国老管家的形象。挺有意思。估计是有什么来历吧？&amp;#160;&amp;#160; ( As a Continuous Integration tool like Hudson and CruiseConrol, Jekins has a interesting LOGO shown as below. ) &lt;/p&gt;
+&lt;p&gt;&lt;img src="http://jenkins-ci.org/sites/default/files/jenkins_logo.png" /&gt;&lt;/p&gt; 
+&lt;p&gt;公司有个项目由它来测试，过去的两个星期我一直在弄那个项目，所以也对Jenkins有了一点使用的体会。&amp;#160; ( I have been working on a project which was detected failed by Jenkins, so I have some experience using it . )&amp;#160;&lt;/p&gt;
+&lt;p&gt;&lt;img rel="450x450" alt="Jenkins For Selenium" title="Jenkins For Selenium" src="/system/images/BAhbB1sHOgZmIjUyMDEyLzEwLzExLzEwXzM1XzA0Xzc5OF9KZW5raW5zX2Zvcl9zZWxlbml1bS5wbmdbCDoGcDoKdGh1bWIiDTQ1MHg0NTA+/Jenkins_for_selenium.png" height="281" width="450" /&gt;&lt;/p&gt;
+&lt;p&gt;1. 配置很灵活. "configure" 页面的表单有各种各样的选项，点开之后，会出现第二层更详细的配置。不点开的时候，很简介，略去了不必要的信息，很提用户着想。 ( detailed and flexible configuration.&amp;#160; in the "configure" page, there are many options and items with description and tips that are very helpful and easy to understand to new users.&amp;#160; For an item,&amp;#160; once clicked, its 2nd level of options will pop up; if not clicked , the 2nd level of options will be collapsed and the saved lots of space for the page which looks more concise and clean, sweet! ) &lt;/p&gt;
+&lt;p&gt;2. WEB界面响应很快。点击"Build now"之后，会向服务器发送AJAX请求，然后自动刷新页面。这点比CruiseControl要好。CC经常无缘无故的死掉。估计是AJAX做的不好。。。当然了，也有可能是我的个人环境问题。 ( Good speed of the page's response.&amp;#160; e.g. after "build now" clicked, an ajax request will be sent to server and then the current page will be refreshed. As a negative example, cruisecontrol did a bad job. when using it, I always found the page hung once an ajax request send to server, and I have to manual press F5 to do the refresh operation. Of course it maybe my browser's problem. -- Firefox 3.x )&lt;/p&gt;
+&lt;p&gt;3. 单元测试的文件位置，只能是相对路径，不能是绝对路径。例如：&amp;#160; (the path of the test result files must be relative ) &lt;br /&gt;"/home/sg552/reports/TEST*.xml" 不行。&amp;#160;&amp;#160;&amp;#160; ( failed to find the result file ) &lt;br /&gt;"reports/TEST*.xml" 就可以。&amp;#160;&amp;#160; ( good to Jenkins ) &lt;br /&gt;这里的关键在于，你要掌握好Jenkins的workspace 路径。&amp;#160;&amp;#160;&amp;#160;&amp;#160;  ( the key is the workspace path ) &lt;/p&gt;</description>
+      <pubDate>Thu, 11 Oct 2012 02:15:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/first-sight-of-jenkins</link>
+    </item>
+    <item>
+      <title>建立 Selenium Webdriver  的环境 ( setup a selenium webdriver project) </title>
+      <description>&lt;p&gt;1. 安装好Maven后,  建立一个pom.xml 文件： (create a file named: pom.xml, assuming you have MAVEN installed.  )&lt;/p&gt;
+&lt;pre&gt;&lt;span class="cp"&gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;project&lt;/span&gt; &lt;span class="na"&gt;xmlns=&lt;/span&gt;
+&lt;span class="s"&gt;"http://maven.apache.org/POM/4.0.0"&lt;/span&gt;
+                 &lt;span class="na"&gt;xmlns:xsi=&lt;/span&gt;
+&lt;span class="s"&gt;"http://www.w3.org/2001/XMLSchema-instance"&lt;/span&gt;
+                 &lt;span class="na"&gt;xsi:schemaLocation=&lt;/span&gt;
+&lt;span class="s"&gt;"http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;gt;&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;lt;modelVersion&amp;gt;&lt;/span&gt;4.0.0&lt;span class="nt"&gt;&amp;lt;/modelVersion&amp;gt;&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;lt;groupId&amp;gt;&lt;/span&gt;MySel20Proj&lt;span class="nt"&gt;&amp;lt;/groupId&amp;gt;&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;lt;artifactId&amp;gt;&lt;/span&gt;MySel20Proj&lt;span class="nt"&gt;&amp;lt;/artifactId&amp;gt;&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;lt;version&amp;gt;&lt;/span&gt;1.0&lt;span class="nt"&gt;&amp;lt;/version&amp;gt;&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;lt;dependencies&amp;gt;&lt;/span&gt;
+            &lt;span class="nt"&gt;&amp;lt;dependency&amp;gt;&lt;/span&gt;
+                &lt;span class="nt"&gt;&amp;lt;groupId&amp;gt;&lt;/span&gt;org.seleniumhq.selenium&lt;span class="nt"&gt;&amp;lt;/groupId&amp;gt;&lt;/span&gt;
+                &lt;span class="nt"&gt;&amp;lt;artifactId&amp;gt;&lt;/span&gt;selenium-java&lt;span class="nt"&gt;&amp;lt;/artifactId&amp;gt;&lt;/span&gt;
+                &lt;span class="nt"&gt;&amp;lt;version&amp;gt;&lt;/span&gt;2.25.0&lt;span class="nt"&gt;&amp;lt;/version&amp;gt;&lt;/span&gt;
+            &lt;span class="nt"&gt;&amp;lt;/dependency&amp;gt;&lt;/span&gt;
+            &lt;span class="nt"&gt;&amp;lt;dependency&amp;gt;&lt;/span&gt;
+                &lt;span class="nt"&gt;&amp;lt;groupId&amp;gt;&lt;/span&gt;com.opera&lt;span class="nt"&gt;&amp;lt;/groupId&amp;gt;&lt;/span&gt;
+                &lt;span class="nt"&gt;&amp;lt;artifactId&amp;gt;&lt;/span&gt;operadriver&lt;span class="nt"&gt;&amp;lt;/artifactId&amp;gt;&lt;/span&gt;
+            &lt;span class="nt"&gt;&amp;lt;/dependency&amp;gt;&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;lt;/dependencies&amp;gt;&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;lt;dependencyManagement&amp;gt;&lt;/span&gt;
+            &lt;span class="nt"&gt;&amp;lt;dependencies&amp;gt;&lt;/span&gt;
+                &lt;span class="nt"&gt;&amp;lt;dependency&amp;gt;&lt;/span&gt;
+                    &lt;span class="nt"&gt;&amp;lt;groupId&amp;gt;&lt;/span&gt;com.opera&lt;span class="nt"&gt;&amp;lt;/groupId&amp;gt;&lt;/span&gt;
+                    &lt;span class="nt"&gt;&amp;lt;artifactId&amp;gt;&lt;/span&gt;operadriver&lt;span class="nt"&gt;&amp;lt;/artifactId&amp;gt;&lt;/span&gt;
+                    &lt;span class="nt"&gt;&amp;lt;version&amp;gt;&lt;/span&gt;0.16&lt;span class="nt"&gt;&amp;lt;/version&amp;gt;&lt;/span&gt;
+                    &lt;span class="nt"&gt;&amp;lt;exclusions&amp;gt;&lt;/span&gt;
+                        &lt;span class="nt"&gt;&amp;lt;exclusion&amp;gt;&lt;/span&gt;
+                            &lt;span class="nt"&gt;&amp;lt;groupId&amp;gt;&lt;/span&gt;org.seleniumhq.selenium&lt;span class="nt"&gt;&amp;lt;/groupId&amp;gt;&lt;/span&gt;
+                            &lt;span class="nt"&gt;&amp;lt;artifactId&amp;gt;&lt;/span&gt;selenium-remote-driver&lt;span class="nt"&gt;&amp;lt;/artifactId&amp;gt;&lt;/span&gt;
+                        &lt;span class="nt"&gt;&amp;lt;/exclusion&amp;gt;&lt;/span&gt;
+                    &lt;span class="nt"&gt;&amp;lt;/exclusions&amp;gt;&lt;/span&gt;
+                &lt;span class="nt"&gt;&amp;lt;/dependency&amp;gt;&lt;/span&gt;
+            &lt;span class="nt"&gt;&amp;lt;/dependencies&amp;gt;&lt;/span&gt;
+        &lt;span class="nt"&gt;&amp;lt;/dependencyManagement&amp;gt;&lt;/span&gt;
+&lt;span class="nt"&gt;&amp;lt;/project&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+&lt;p&gt; 2. 下载所有的依赖jar包。运行 $ mvn clean install ( run this command to download all the dependend -jar files. ) &lt;/p&gt;
+&lt;pre&gt;........ 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 59.955s
+[INFO] Finished at: Fri Sep 28 10:42:29 CST 2012
+[INFO] Final Memory: 7M/40M
+[INFO] ------------------------------------------------------------------------
+
+&lt;/pre&gt;
+</description>
+      <pubDate>Fri, 28 Sep 2012 02:37:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/setup-a-selenium-webdriver-project</link>
+    </item>
+    <item>
+      <title>Selenium 家族大集合 ( selenium family names ) </title>
+      <description>&lt;p&gt;
+&lt;img src="http://blargon7.com/selenium_docs/_images/chapt3_img04_IDE_Installation.png" alt="Selenium Family" /&gt;
+Selenium 有很多的组件和琳琅满目的名字。看了让新手发蒙(confused which is which )，所以咱们来看看：(Selenium seems to have a lot of different components and the website does not explain them very well and I'm still a bit confused which is which. What's the difference or purpose between: )&lt;/p&gt;
+&lt;p&gt;1. Selenium IDE &lt;br /&gt;2. Selenium Server &lt;br /&gt;3. Selenium Remote Control &lt;br /&gt;4. WebDriver &lt;br /&gt;5. Selenium 2&lt;/p&gt;
+&lt;p&gt;我的理解是：(My understanding is as follows:)&lt;/p&gt;
+&lt;p&gt;
+&lt;img src="http://www.dynamitemap.com/selenium/ide.png" alt="Selenium IDE" /&gt;&lt;br /&gt;Selenium IDE 是一个GUI插件，跑在Firefox上。可以快速的建立TestCase的原型。另外，它的Record功能非常给里。而且各种assert的提示非常友好。( Selenium IDE is a GUI plugin used for rapid prototyping of test cases in Selenese/HTML.&amp;#160; It's now a Firefox plugin, and it has very strong command-tooltips for assertion)&lt;/p&gt;
+&lt;p&gt;Selenium Server: 是一个独立的java程序，可以跑Test suite ( Selenium Server is a standalone java program which allows you to run HTML test suites in a range of different browsers, plus extra options like reporting. )&lt;/p&gt;
+&lt;p&gt;Selenium Remote Control ( selenium-rc) 是Selenium Server的老名字，它只兼容 Selenium 1的API。 (Selenium Remote Control is the old name for Selenium Server, which only supports version 1 of the Selenium API. )&lt;/p&gt;
+&lt;p&gt;WebDriver 是事实上的核心API， 支持很多种语言。(WebDriver is the actual core API which has bindings in a range of languages and allows you to write standalone tests.) &lt;/p&gt;
+&lt;p&gt;Selenium2 是最新的Selenium 名称。它包括了： IDE, Server和 WebDriver ( Selenium 2 is the latest version of the Selenium project, and includes the IDE, Server and WebDriver. ) &lt;/p&gt;
+
+&lt;p&gt;&lt;a target="_blank" title="http://sqa.stackexchange.com/q/1580" href="http://sqa.stackexchange.com/q/1580"&gt;参考（refer to ) : What's the difference between Selenium IDE, RC, 2, and WebDriver? &lt;/a&gt;
+&lt;/p&gt;</description>
+      <pubDate>Fri, 28 Sep 2012 01:15:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/selenium-family-names</link>
+    </item>
+    <item>
+      <title>ubuntu 12 server 安装RUBY， RVM   (install RVM on ubuntu 12 server )</title>
+      <description>&lt;p&gt;昨天拿到一个服务器， 很奇怪，根据源代码编译，安装之后，总是提示 psych 错误（It seems your ruby installation is missing psych (for YAML output). To eliminate this warning, please install libyaml and reinstall your ruby. )&amp;#160; 而且搞了几次都没解决问题。后来考虑到这个SERVER还要兼容1.8.x 系列，我就使用RVM吧！&amp;#160; ( yesterday when I was setting up the environment of my Rails on ubuntu server by download-compile-make install the ruby source code, there's always an error message : ".. missing psych (for YAML output ) "... ) after diving into this problem but not solved it in some time, also considering the compatibility for other Ruby versions, I decided to install RVM instead. )&lt;/p&gt;
+&lt;p&gt;步骤： (steps)&lt;/p&gt;
+&lt;p&gt;1. 安装rvm （略）&amp;#160; (install RVM ) &lt;/p&gt;
+&lt;p&gt;2. $ rvm pkg install libyaml&lt;/p&gt;
+&lt;p&gt;3. $ rvm pkg install readline --verify-downloads 1&lt;/p&gt;
+&lt;p&gt;4. $ rvm pkg install {iconv,zlib,openssl}&lt;/p&gt;
+&lt;p&gt;5. $ rvm install 1.9.3 -C --with-openssl-dir=$HOME/.rvm/usr, --with-iconv-dir=$HOME/.rvm/usr
+&lt;br /&gt;
+&lt;/p&gt;
+</description>
+      <pubDate>Fri, 28 Sep 2012 00:54:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/install-rvm-on-ubuntu-server</link>
+    </item>
+    <item>
+      <title>Grails 进阶： 单元测试  ( unit testing in Grails ) </title>
+      <description>&lt;p&gt;假如，我们有一个controller: controllers/dashboard/StatusController.groovy&amp;#160; (Assuming we have a controller )&amp;#160; &lt;/p&gt;
+
+&lt;pre&gt;  1 package dashboard
+  2 
+  3 class StatusController {
+  4 
+  5     def index() {
+  6     }
+  7 
+  8  }
+&lt;/pre&gt;
+&lt;p&gt;
+我们要给它 加上单元测试，该怎么做呢？  (how to add unit test for it? ) 
+&lt;/p&gt;
+&lt;p&gt;
+1. 建立文件： test/unit/dashboard/StatusControllerTests.groovy ( create a file )  &lt;/p&gt;
+&lt;pre&gt;  1 package dashboard
+  2 import grails.test.mixin.*
+  3 import org.junit.*
+  4 
+  5 @TestFor(StatusController)
+  6 class StatusControllerTests {
+  7 
+  8     void testIndex () {
+  9         controller.index()
+ 10         assertEquals "bar", controller.response.contentAsString
+ 11     }
+ 12 }
+&lt;/pre&gt;       
+
+
+&lt;p&gt;
+2. 运行： grails test-app StatusController  
+或者 $ grails test-app *Controller   ( run $ grails test-app *Controller ) 
+&lt;/p&gt;
+&lt;pre&gt;sg552@siwei-moto:~/workspace/dashborad$ grails test-app StatusController
+| Running 1 unit test... 1 of 1
+| Failure:  testIndex(dashboard.StatusControllerTests)
+|  junit.framework.ComparisonFailure: expected:&amp;lt;[bar]&amp;gt; but was:&amp;lt;[]&amp;gt;
+	at junit.framework.Assert.assertEquals(Assert.java:85)
+	at dashboard.StatusControllerTests.testIndex(StatusControllerTests.groovy:16)
+| Completed 1 unit test, 1 failed in 6425ms
+| Packaging Grails application.....
+| Tests FAILED  - view reports in /home/sg552/workspace/dashborad/target/test-reports&lt;/pre&gt;
+&lt;p&gt;3. 但是尚未结束，当调用model的自动方法时出错：&lt;/p&gt;
+&lt;pre&gt;| Failure:  testInfo(dashboard.StatusControllerTests)
+|  groovy.lang.MissingMethodException: No signature of method: dashboard.StationInfo.get() is applicable for argument types: () values: []
+Possible solutions: get(java.io.Serializable), getId(), getIp(), grep(), grep(java.lang.Object), getAt(java.lang.String)
+	at dashboard.StatusController.getResult(StatusController.groovy:14)
+        ......
+&lt;/pre&gt;
+&lt;p&gt;运行 $ grails test-app StatusController --integration 之后，就可以解决这个问题。参考： &lt;a href="http://stackoverflow.com/a/9255043"&gt;http://stackoverflow.com/a/9255043&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;
+3. 进一步： grails-app/conf/DataSource.groovy 可以看到数据库配置，相当于 rails 的 database.yml   ( grails-app/conf/DataSource.groovy == database.yml in Rails ) 
+&lt;/p&gt;
+&lt;p&gt;
+一点体会： Grails运行单元测试的速度太慢了。 跑了一个UT下来，从回车到结果显示结束，耗费近60秒的时间。
+实际上我过了4秒就等不及开始溜号了。  ( However it's much slower that running Tests in Grails than in Rails. It takes almost 60 seconds to execute a unit tests while I lost my focus in 4 seconds ) &lt;/p&gt;
+&lt;p&gt;
+RAILS一般都可以在10秒内启动，估计省去了GRAILS的编译过程。( and in Rails the total process often cost less than 10 seconds) &lt;/p&gt;</description>
+      <pubDate>Wed, 26 Sep 2012 02:51:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/unit-testing-in-grails</link>
+    </item>
+    <item>
+      <title>scp: 复制远程文件到本地( scp: an alternative for sftp )</title>
+      <description>&lt;p&gt;sftp 的替代命令。好处是不必建立本地的文件加名字( an alternative for SFTP but more convienince ) &lt;/p&gt;
+&lt;p&gt;e.g. 把远程的 /home/remote_folder 复制到本地： (copy the remote folder: /home/remote_folder to local: )
+&lt;/p&gt;
+&lt;pre&gt;$ scp -r kcv478@qabuild01.qa.blurdev.com:/home/remote_folder/ .
+&lt;/pre&gt;
+</description>
+      <pubDate>Tue, 25 Sep 2012 01:49:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/scp-an-alternative-for-sftp</link>
+    </item>
+    <item>
+      <title>如何更新github forked project? ( how to update the forked project on github? ) </title>
+      <description>&lt;p&gt;非常简单，就是在配置文件中增加一个 remote 。。。
+&lt;/p&gt;
+&lt;pre&gt;# 增加一个remote, 起名叫  "upstream" (  Add the remote, call it "upstream":  )
+
+git remote add upstream git://github.com/whoever/whatever.git
+
+# 然后fetch 过来。。。
+# Fetch all the branches of that remote into remote-tracking branches,
+# such as upstream/master:
+
+git fetch upstream
+
+# 然后把它合并到本地的master上： 
+# 1. checkout master   ( Make sure that you're on your master branch: )
+
+git checkout master
+
+# 2. 执行rebase.  ( Rewrite your master branch so that any commits of yours that
+# aren't already in upstream/master are replayed on top of that other branch:  )
+
+git rebase upstream/master
+&lt;/pre&gt;
+
+&lt;p&gt;refer to &lt;a href="http://stackoverflow.com/a/7244456/445908"&gt;How to update GitHub forked repository?&lt;/a&gt;
+&lt;/p&gt;</description>
+      <pubDate>Mon, 24 Sep 2012 00:10:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/how-to-update-forked-project</link>
+    </item>
+    <item>
+      <title>一点selenium 心得（selenium experience ) </title>
+      <description>&lt;p&gt;1. 尽量使用glob 来匹配。 verifyAlert &amp;#160; &amp;#160; glob: *some text* &amp;#160; &amp;#160; &amp;#160; ( better than: &amp;#160; regExp=/... &amp;#160; &amp;#160; or plain text ) &amp;#160; &amp;#160;&lt;/p&gt;
+&lt;p&gt;2. &amp;#160;总是使用CSS。 Always use CSS: &amp;#160; &amp;#160;click target &amp;#160; css=input[type='submit']&lt;/p&gt;
+&lt;p&gt;3. &amp;#160;选择radio 的办法： choose a radio: &amp;#160;click target: &amp;#160;&amp;#160;//input[@name='gender' and @value='female'] &amp;#160; ( better than name=... )&amp;#160;&lt;/p&gt;
+&lt;p&gt;更多请参考我的另外几篇文章(click here to refer to my other selenium posts) ：&lt;a target="_blank" href="http://sg552.iteye.com/blog/search?query=selenium"&gt;点击这里(more selenium posts)&amp;#160;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;经过了一天的努力，终于把&lt;a href="https://github.com/sg552/rsv" title="https://github.com/sg552/rsv" target="_blank"&gt;RSV&lt;/a&gt; 的全部 selenium 测试用力做完了。:-) &amp;#160;( after a day's work, all the test cases of RSV has been implemented )&amp;#160;&lt;/p&gt;
+
+&lt;img src="http://www.siwei.me/system/resources/BAhbBlsHOgZmIjsyMDEyLzA5LzIwLzE2XzIyXzQ5XzQyNF9zZWxlbml1bV90ZXN0X3N1aXRlX3Jlc3VsdC5wbmc/selenium_test_suite_result.png" /&gt;</description>
+      <pubDate>Thu, 20 Sep 2012 08:27:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/selenium-experience</link>
+    </item>
+    <item>
+      <title>职业生涯中参与的第一个开源项目(the first commit to open source) </title>
+      <description>&lt;p&gt;&lt;a target="_blank" href="https://github.com/refinery/refinerycms/pull/1957"&gt; https://github.com/refinery/refinerycms/pull/1957 &lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;属于最最简单的i18n，翻译一个yml就可以提交了。呵呵 &amp;#160;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/system/images/BAhbB1sHOgZmIi0yMDEyLzA5LzIwLzA4XzA5XzA0XzYzMV9maXJzdF9jb21taXQuUE5HWwg6BnA6CnRodW1iIg00NTB4NDUwPg/first_commit.PNG" title="First Commit" alt="First Commit" rel="450x450" width="450" height="253" /&gt;&lt;/p&gt;
+</description>
+      <pubDate>Thu, 20 Sep 2012 00:04:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/the-first-commit-to-open-source</link>
+    </item>
+    <item>
+      <title>吐槽一下mongodb的反人类命令( don't like the way of mongodb's start)</title>
+      <description>&lt;pre&gt;$ (which mongod # =&amp;gt; /usr/bin/mongod )
+$ sudo mongod --repair -f /etc/mongodb.conf
+$ sudo mongod start -f /etc/mongodb.conf --fork
+&lt;/pre&gt;
+&lt;p&gt;1. 干嘛不在 start的时候 自动repair一下？&lt;/p&gt;
+&lt;p&gt;2. ubuntu 干嘛不把 配置文件命名成默认的名字？&lt;/p&gt;
+&lt;p&gt;3. --fork 跟 --daemon的可读性相比？&lt;/p&gt;
+&lt;p&gt;看来是必须把它们放到 bash_login中不可了，我可不想被这么无厘头的东西。。。 -&lt;/p&gt;</description>
+      <pubDate>Mon, 17 Sep 2012 06:31:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/mongodb-repair-and-start</link>
+    </item>
+    <item>
+      <title>scala 简介 (scala introduction) </title>
+      <description>
+&lt;p&gt; 读音：  It's Ska-lah,  (不是 ska-ler )  It's Ska-lah; rhimes with Java.&lt;/p&gt;
+&lt;p&gt;目的是做一个更好的JAVA. ( a better Java)&lt;/p&gt;
+&lt;p style="color: blue"&gt;在PLAY中使用SCALA，貌似可以不安装Scala，直接运行PLAY～ &lt;/p&gt;
+&lt;p&gt;可读性更好，表述能力更强，代码比JAVA少三分之二。 (Code sizes are typically reduced by a factor of two to three when compared to an equivalent Java application.)&lt;/p&gt;
+&lt;p&gt;可以与java 无缝集成（streamless integration with Java) ，可以在Java中运行 Scala， 也可以在Scala中跑Java. &lt;/p&gt;
+&lt;p&gt;编译效果和运行速度不亚于JAVA， 写JAVA编译器的人 Martin，就负责写 Scala 编译器 ( the guy who wrotes Scala compiler also wrote the Java compiler, named Martin Odersky )&amp;#160;&lt;/p&gt;
+&lt;p&gt;Scala 同时具有面向对象和面向函数的特点 (both object and functional oriented. ) &lt;/p&gt;
+&lt;p&gt;Scala 是静态类型的语言。不支持鸭子类型（ staticially typed)&amp;#160;&lt;/p&gt;
+&lt;p&gt;Scala 也支持.NET&lt;br /&gt; &lt;/p&gt;
+
+&lt;p&gt; 参考：  &lt;a href="http://www.scala-lang.org/node/25"&gt; Scala Introduction &lt;/a&gt;
+&lt;/p&gt;</description>
+      <pubDate>Fri, 14 Sep 2012 07:02:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/scala-introduction</link>
+    </item>
+    <item>
+      <title>java Play框架入门 ( simple tutorial for play framework) </title>
+      <description>&lt;p&gt;注意：：： 官方的文档不给力啊，按照他说的做，会遇到各种问题。文档更新的速度没跟上代码。。。最好的办法是运行：&amp;#160; sample 目录下的 项目。&amp;#160;&amp;#160;&amp;#160; ( CAUTION:&amp;#160; official tutorial is not correct from my experience today, the best way is to run the sample applications in the "sample" folder , check it out! ) &lt;/p&gt;
+&lt;p&gt;1. 下载并解压缩最新的文件。( Download and unzip the play framework file ) : &lt;/p&gt;
+&lt;p&gt;2. 为 "play" 这个文件加上可执行的标志 : chmod +x play ,并把它放到系统PATH中。 ( make the 'play' file executable and add its path to PATH ) &lt;/p&gt;
+&lt;p&gt;3. 建立一个空的应用 ： ( create an empty play application) &lt;br /&gt;$ play new test_play_framework&amp;#160; &lt;/p&gt;
+&lt;p&gt;4. 打开控制台：&amp;#160; (open its console)&lt;br /&gt;$ cd test_play_framework&lt;br /&gt;$ run
+&lt;/p&gt;
+&lt;pre&gt;sg552@siwei-moto:~/workspace/test_play$ play
+[info] Loading project definition from /home/sg552/workspace/test_play/project
+[info] Set current project to test_play (in build file:/home/sg552/workspace/test_play/)
+       _            _ 
+ _ __ | | __ _ _  _| |
+| '_ \| |/ _' | || |_|
+|  __/|_|\____|\__ (_)
+|_|            |__/ 
+             
+play! 2.0.3, http://www.playframework.org
+
+&amp;gt; Type "help play" or "license" for more information.
+&amp;gt; Type "exit" or use Ctrl+D to leave this console.
+
+[test_play] $ run
+[info] Updating {file:/home/sg552/workspace/test_play/}test_play...
+[info] Done updating.                                                                  
+--- (Running the application from SBT, auto-reloading is enabled) ---
+
+[info] play - Listening for HTTP on port 9000...
+
+(Server started, use Ctrl+D to stop and go back to the console...)
+
+&lt;/pre&gt;
+&lt;p&gt;
+可以看到服务器运行在了9000端口，打开。。。( we could see that the server is running at:  localhost:9000, open it ) 
+&lt;img src="http://www.playframework.org/documentation/2.0.3/resources/manual/javaGuide/tutorials/todolist/images/welcome.png" /&gt;&lt;/p&gt;
+</description>
+      <pubDate>Fri, 14 Sep 2012 01:57:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/simple-tutorial-for-play-framework</link>
+    </item>
+    <item>
+      <title>奇怪的LINUX上网问题: eth0 ? eth1 ? ( strange DHCP client problem:  eth0 v.s. eth1)</title>
+      <description>&lt;p&gt;今天解决了一个心头大患： 局域网的一个机器总是连不上服务器。最初的时候使用随时分配的地址是没问题的，可是后来弄了固定IP地址之后，就出现了连不上网的问题。&lt;/p&gt;
+&lt;p&gt;这个问题在我的AMD SERVER的时候就出现过。现在在我的5200 4GB server上又出现了一次。郁闷！&lt;/p&gt;
+&lt;p&gt;经过查看，问题出在 &amp;#160;/etc/network/interfaces 文件中。它的内容是：&lt;br /&gt;auto lo eth1&lt;br /&gt;iface lo inet loopback&lt;br /&gt;eth0 iface eth0 inet dhcp&lt;/p&gt;
+&lt;p&gt;看起来没错。可是使用 $ ifconfig -a 查看的话，就会发现: &amp;#160;&lt;br /&gt;eth1 ....&lt;br /&gt;lo ....&lt;/p&gt;
+&lt;p&gt;看到了吧？ &amp;#160;一个是eth1, 一个是eth0. &amp;#160;矛盾出来了。所以修改 /etc/network/interfaces 文件，把eth0 改成 eth1 ，就搞定了。&lt;/p&gt;
+&lt;p&gt;非常奇怪的问题，可能是因为我的硬盘安装LINUX时是在另外一台机器造成的？ ^_^ 总之问题是比我想象容易的搞定了。。。&lt;/p&gt;</description>
+      <pubDate>Sun, 09 Sep 2012 08:04:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/linux-dhcp-client-eth0-or-eth1</link>
+    </item>
+    <item>
+      <title>Maven 5分钟入门 (Maven in 5 minutes )</title>
+      <description>&lt;p&gt;最近项目用的JAVA，看着各种版本的jar，我心中特别想念bundler啊。( These days I have been using java for my project, so much I am missing Bundler... ) &lt;/p&gt;
+&lt;p&gt;还好java有 Maven&amp;#160; 和 Ivy 进行包管理。（题外话：第一次遇到jar的问题是06年想对jive论坛进行重构——那时候心里的"重构"还不是refactoring 这个概念^_^ ）。 我试着用了Maven。记录如下： （本文也是对&amp;#160; 官方文档 &lt;a target="_blank" title="http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html" href="http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html"&gt;Maven in 5 minutes&lt;/a&gt;的一个小翻译）&lt;br /&gt;(The first time I met the jar dependency problem is in 2006 summer when I am 're-constructing' the famous 'Jive' forum .  for English document, please refer to &lt;a target="_blank" title="http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html" href="http://maven.apache.org/guides/getting-started/maven-in-five-minutes.html"&gt;Maven in 5 minutes&lt;/a&gt; ) &lt;/p&gt;
+&lt;p&gt;0. 安装Maven3 (假设你的环境是LINUX): 
+&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;下载&lt;a href="http://maven.apache.org/download.html"&gt; Maven3&lt;/a&gt; 并解压缩到本地某个文件夹，&lt;/li&gt;
+  &lt;li&gt;设置变量 M2_HOME:  export M2_HOME=/usr/local/apache-maven/apache-maven-3.0.4.&lt;/li&gt;
+  &lt;li&gt;设置变量 M2:  export M2=$M2_HOME/bin ，并把它放到PATH中：   export PATH=$M2:$PATH&lt;/li&gt;
+  &lt;li&gt;设置变量： export MAVEN_OPTS="-Xms256m -Xmx512m"   &lt;/li&gt;
+  &lt;li&gt; 运行 $ mvn --version 查看结果&lt;/li&gt;
+&lt;/ol&gt;
+为Maven设置代理服务器：   
+&lt;ol&gt;
+  &lt;li&gt;$ cp $M2_HOME/conf/settings.xml ~/.m2/settings.xml  &lt;/li&gt;
+  &lt;li&gt;编辑 这个刚复制过来的settings.xml ， 把你的代理服务器加进去（里面有注释）&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;1. 确保你的项目中有个src目录（&lt;a href="http://maven.apache.org/guides/introduction/introduction-to-the-standard-directory-layout.html" target="_blank"&gt;参考MAVEN的标准目录结构&lt;/a&gt;），然后建立 pom.xml 文件：&lt;/p&gt;
+&lt;pre&gt;&amp;lt;project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"&amp;gt;
+  &amp;lt;modelVersion&amp;gt;4.0.0&amp;lt;/modelVersion&amp;gt;
+
+  &amp;lt;groupId&amp;gt;com.motorola.blur&amp;lt;/groupId&amp;gt;
+  &amp;lt;artifactId&amp;gt;new_dashboard_portal&amp;lt;/artifactId&amp;gt;
+  &amp;lt;version&amp;gt;1.0-SNAPSHOT&amp;lt;/version&amp;gt;
+  &amp;lt;packaging&amp;gt;war&amp;lt;/packaging&amp;gt;
+
+  &amp;lt;name&amp;gt;Maven Quick Start Archetype&amp;lt;/name&amp;gt;
+  &amp;lt;url&amp;gt;http://maven.apache.org&amp;lt;/url&amp;gt;
+
+  &amp;lt;dependencies&amp;gt;
+    &amp;lt;dependency&amp;gt;
+      &amp;lt;groupId&amp;gt;junit&amp;lt;/groupId&amp;gt;
+      &amp;lt;artifactId&amp;gt;junit&amp;lt;/artifactId&amp;gt;
+      &amp;lt;version&amp;gt;4.8.2&amp;lt;/version&amp;gt;
+      &amp;lt;scope&amp;gt;test&amp;lt;/scope&amp;gt;
+    &amp;lt;/dependency&amp;gt;
+  &amp;lt;/dependencies&amp;gt;
+&amp;lt;/project&amp;gt;&lt;/pre&gt;
+&lt;p&gt;2. 输入 $ mvn package , 就会自动的下载需要的JAR，然后打包成 war文件，就可以了（前提是你的文件目录结构是正确的）&lt;/p&gt;
+&lt;p&gt;3. 几个最常用的命令：&lt;br /&gt;3.1 compile&lt;br /&gt;3.2 test, integration-test&lt;br /&gt;3.3 package&lt;br /&gt;3.4 deploy&lt;/p&gt;
+</description>
+      <pubDate>Fri, 07 Sep 2012 01:46:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/maven-in-five-minutes</link>
+    </item>
+    <item>
+      <title>Hibernate基础：annotation (Hibernate basic: annotation)</title>
+      <description>&lt;p&gt;使用HIBERNATE，面临一个问题：&amp;#160; pojo, xml , 数据库表，三个东西的内容都是一致的。&lt;br /&gt;最笨的办法： 人肉一个一个去修改。&lt;br /&gt;理想的办法： 修改一个，生成另外2个（我怀念RAILS）。&amp;#160; &lt;/p&gt;
+&lt;p&gt;这就要使用 hibernate annotation了。另外的选择还有xdoclet。不过那是几年前的技术了。不谈。&lt;/p&gt;
+&lt;p&gt;参考这个文章：http://docs.jboss.org/hibernate/annotations/3.5/reference/en/html_single/#setup-requirements&lt;/p&gt;
+</description>
+      <pubDate>Thu, 06 Sep 2012 08:31:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/hibernate-annotation</link>
+    </item>
+    <item>
+      <title>spring MVC基础: 建立一个app应用 (create a spring MVC step by step) for tomcat 7</title>
+      <description>&lt;p&gt;
+&lt;img src="http://static.springsource.org/docs/Spring-MVC-step-by-step/images/dir-structure-endp1.png" /&gt;
+&lt;/p&gt;
+&lt;p&gt;( 原文参考：  &lt;a href="http://static.springsource.org/docs/Spring-MVC-step-by-step/part1.html"&gt; Spring MVC step by step &lt;/a&gt; ) &lt;/p&gt;
+&lt;p&gt;1. 先建立好文件夹，格式如下：
+&lt;/p&gt;
+&lt;pre&gt;1. src:  保存所有的 java 文件
+2. war:  web相关的文件，以及用于生成部署的文件
+&lt;/pre&gt;
+
+&lt;p&gt;2. 在 war 目录下 建立jsp文件 &lt;/p&gt;
+&lt;pre&gt;&amp;lt;html&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;h1&amp;gt;Example - Spring Application&amp;lt;/h1&amp;gt;
+    &amp;lt;p&amp;gt;This is my test.&amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;
+&lt;/pre&gt;
+&lt;p&gt;3. 建立 WEB-INF/web.xml文件&lt;/p&gt;
+&lt;pre&gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+&amp;lt;web-app version="2.4"
+         xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+         http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" &amp;gt;
+  &amp;lt;welcome-file-list&amp;gt;
+    &amp;lt;welcome-file&amp;gt;
+      index.jsp
+    &amp;lt;/welcome-file&amp;gt;
+  &amp;lt;/welcome-file-list&amp;gt;
+&amp;lt;/web-app&amp;gt;
+&lt;/pre&gt;
+&lt;p&gt; 4. 建立 build.xml &lt;/p&gt;
+&lt;pre class="programlisting"&gt;&amp;lt;?xml version="1.0"?&amp;gt;
+
+&amp;lt;project name="springapp" basedir="." default="usage"&amp;gt;
+    &amp;lt;property file="build.properties"/&amp;gt;
+
+    &amp;lt;property name="src.dir" value="src"/&amp;gt;
+    &amp;lt;property name="web.dir" value="war"/&amp;gt;
+    &amp;lt;property name="build.dir" value="${web.dir}/WEB-INF/classes"/&amp;gt;
+    &amp;lt;property name="name" value="springapp"/&amp;gt;
+
+    &amp;lt;path id="master-classpath"&amp;gt;
+        &amp;lt;fileset dir="${web.dir}/WEB-INF/lib"&amp;gt;
+            &amp;lt;include name="*.jar"/&amp;gt;
+        &amp;lt;/fileset&amp;gt;
+        &amp;lt;!-- We need the servlet API classes: --&amp;gt;
+        &amp;lt;!--  * for Tomcat 5/6 use servlet-api.jar --&amp;gt;
+        &amp;lt;!--  * for other app servers - check the docs --&amp;gt;
+        &amp;lt;fileset dir="${appserver.lib}"&amp;gt;
+            &amp;lt;include name="servlet*.jar"/&amp;gt;
+        &amp;lt;/fileset&amp;gt;
+        &amp;lt;pathelement path="${build.dir}"/&amp;gt;
+    &amp;lt;/path&amp;gt;
+
+    &amp;lt;target name="usage"&amp;gt;
+        &amp;lt;echo message=""/&amp;gt;
+        &amp;lt;echo message="${name} build file"/&amp;gt;
+        &amp;lt;echo message="-----------------------------------"/&amp;gt;
+        &amp;lt;echo message=""/&amp;gt;
+        &amp;lt;echo message="Available targets are:"/&amp;gt;
+        &amp;lt;echo message=""/&amp;gt;
+        &amp;lt;echo message="build     --&amp;gt; Build the application"/&amp;gt;
+        &amp;lt;echo message="deploy    --&amp;gt; Deploy application as directory"/&amp;gt;
+        &amp;lt;echo message="deploywar --&amp;gt; Deploy application as a WAR file"/&amp;gt;
+        &amp;lt;echo message="install   --&amp;gt; Install application in Tomcat"/&amp;gt;
+        &amp;lt;echo message="reload    --&amp;gt; Reload application in Tomcat"/&amp;gt;
+        &amp;lt;echo message="start     --&amp;gt; Start Tomcat application"/&amp;gt;
+        &amp;lt;echo message="stop      --&amp;gt; Stop Tomcat application"/&amp;gt;
+        &amp;lt;echo message="list      --&amp;gt; List Tomcat applications"/&amp;gt;
+        &amp;lt;echo message=""/&amp;gt;
+    &amp;lt;/target&amp;gt;
+
+    &amp;lt;target name="build" description="Compile main source tree java files"&amp;gt;
+        &amp;lt;mkdir dir="${build.dir}"/&amp;gt;
+        &amp;lt;javac destdir="${build.dir}" source="1.5" target="1.5" debug="true"
+               deprecation="false" optimize="false" failonerror="true"
+               includeantruntime="false"&amp;gt;
+            &amp;lt;src path="${src.dir}"/&amp;gt;
+            &amp;lt;classpath refid="master-classpath"/&amp;gt;
+        &amp;lt;/javac&amp;gt;
+    &amp;lt;/target&amp;gt;
+
+    &amp;lt;target name="deploy" depends="build" description="Deploy application"&amp;gt;
+        &amp;lt;copy todir="${deploy.path}/${name}" preservelastmodified="true"&amp;gt;
+            &amp;lt;fileset dir="${web.dir}"&amp;gt;
+                &amp;lt;include name="**/*.*"/&amp;gt;
+            &amp;lt;/fileset&amp;gt;
+        &amp;lt;/copy&amp;gt;
+    &amp;lt;/target&amp;gt;
+
+    &amp;lt;target name="deploywar" depends="build" description="Deploy application as a WAR file"&amp;gt;
+        &amp;lt;war destfile="${name}.war"
+             webxml="${web.dir}/WEB-INF/web.xml"&amp;gt;
+            &amp;lt;fileset dir="${web.dir}"&amp;gt;
+                &amp;lt;include name="**/*.*"/&amp;gt;
+            &amp;lt;/fileset&amp;gt;
+        &amp;lt;/war&amp;gt;
+        &amp;lt;copy todir="${deploy.path}" preservelastmodified="true"&amp;gt;
+            &amp;lt;fileset dir="."&amp;gt;
+                &amp;lt;include name="*.war"/&amp;gt;
+            &amp;lt;/fileset&amp;gt;
+        &amp;lt;/copy&amp;gt;
+    &amp;lt;/target&amp;gt;
+    
+&lt;em class="lineannotation"&gt;&lt;span class="lineannotation"&gt;&amp;lt;!-- ============================================================== --&amp;gt;&lt;/span&gt;
+&lt;/em&gt;
+&lt;em class="lineannotation"&gt;&lt;span class="lineannotation"&gt;&amp;lt;!-- Tomcat tasks - remove these if you don't have Tomcat installed --&amp;gt;&lt;/span&gt;
+&lt;/em&gt;
+&lt;em class="lineannotation"&gt;&lt;span class="lineannotation"&gt;&amp;lt;!-- ============================================================== --&amp;gt;&lt;/span&gt;
+&lt;/em&gt;
+
+    &amp;lt;path id="catalina-ant-classpath"&amp;gt;
+        &amp;lt;!-- We need the Catalina jars for Tomcat --&amp;gt;
+        &amp;lt;!--  * for other app servers - check the docs --&amp;gt;
+        &amp;lt;fileset dir="${appserver.lib}"&amp;gt;
+            &amp;lt;include name="catalina-ant.jar"/&amp;gt;
+        &amp;lt;/fileset&amp;gt;
+    &amp;lt;/path&amp;gt;
+
+    &amp;lt;taskdef name="install" classname="org.apache.catalina.ant.InstallTask"&amp;gt;
+        &amp;lt;classpath refid="catalina-ant-classpath"/&amp;gt;
+    &amp;lt;/taskdef&amp;gt;
+    &amp;lt;taskdef name="reload" classname="org.apache.catalina.ant.ReloadTask"&amp;gt;
+        &amp;lt;classpath refid="catalina-ant-classpath"/&amp;gt;
+    &amp;lt;/taskdef&amp;gt;
+    &amp;lt;taskdef name="list" classname="org.apache.catalina.ant.ListTask"&amp;gt;
+        &amp;lt;classpath refid="catalina-ant-classpath"/&amp;gt;
+    &amp;lt;/taskdef&amp;gt;
+    &amp;lt;taskdef name="start" classname="org.apache.catalina.ant.StartTask"&amp;gt;
+        &amp;lt;classpath refid="catalina-ant-classpath"/&amp;gt;
+    &amp;lt;/taskdef&amp;gt;
+    &amp;lt;taskdef name="stop" classname="org.apache.catalina.ant.StopTask"&amp;gt;
+        &amp;lt;classpath refid="catalina-ant-classpath"/&amp;gt;
+    &amp;lt;/taskdef&amp;gt;
+
+    &amp;lt;target name="install" description="Install application in Tomcat"&amp;gt;
+        &amp;lt;install url="${tomcat.manager.url}"
+                 username="${tomcat.manager.username}"
+                 password="${tomcat.manager.password}"
+                 path="/${name}"
+                 war="${name}"/&amp;gt;
+    &amp;lt;/target&amp;gt;
+
+    &amp;lt;target name="reload" description="Reload application in Tomcat"&amp;gt;
+        &amp;lt;reload url="${tomcat.manager.url}"
+                 username="${tomcat.manager.username}"
+                 password="${tomcat.manager.password}"
+                 path="/${name}"/&amp;gt;
+    &amp;lt;/target&amp;gt;
+
+    &amp;lt;target name="start" description="Start Tomcat application"&amp;gt;
+        &amp;lt;start url="${tomcat.manager.url}"
+                 username="${tomcat.manager.username}"
+                 password="${tomcat.manager.password}"
+                 path="/${name}"/&amp;gt;
+    &amp;lt;/target&amp;gt;
+
+    &amp;lt;target name="stop" description="Stop Tomcat application"&amp;gt;
+        &amp;lt;stop url="${tomcat.manager.url}"
+                 username="${tomcat.manager.username}"
+                 password="${tomcat.manager.password}"
+                 path="/${name}"/&amp;gt;
+    &amp;lt;/target&amp;gt;
+
+    &amp;lt;target name="list" description="List Tomcat applications"&amp;gt;
+        &amp;lt;list url="${tomcat.manager.url}"
+                 username="${tomcat.manager.username}"
+                 password="${tomcat.manager.password}"/&amp;gt;
+    &amp;lt;/target&amp;gt;
+
+&lt;em class="lineannotation"&gt;&lt;span class="lineannotation"&gt;&amp;lt;!-- End Tomcat tasks --&amp;gt;&lt;/span&gt;
+&lt;/em&gt;
+
+&amp;lt;/project&amp;gt;&lt;/pre&gt;
+
+&lt;p&gt; 5. 建立 build.properties &lt;/p&gt;
+&lt;pre&gt;# Ant properties for building the springapp
+
+appserver.home=${user.home}/apache-tomcat-7
+# for Tomcat 5 use $appserver.home}/server/lib
+# for Tomcat 6 use $appserver.home}/lib
+appserver.lib=${appserver.home}/lib
+
+deploy.path=${appserver.home}/webapps
+&lt;br /&gt;# this url is very important to tomcat7:  '/text', otherwise it won't work.
+tomcat.manager.url=http://localhost:8080/manager/text
+tomcat.manager.username=admin
+tomcat.manager.password=admin
+&lt;/pre&gt;
+&lt;p&gt;6. 修改tomcat 配置文件（manager的用户） &lt;/p&gt;
+&lt;pre class="programlisting"&gt;&amp;lt;?xml version='1.0' encoding='utf-8'?&amp;gt;
+&amp;lt;tomcat-users&amp;gt;
+  &amp;lt;role rolename="manager-gui"/&amp;gt;
+  &amp;lt;role rolename="manager-script"/&amp;gt;
+  &amp;lt;user username="admin" password="admin" roles="manager-gui,manager-script"/&amp;gt;
+&amp;lt;/tomcat-users&amp;gt;&lt;/pre&gt;
+
+&lt;p&gt;7. 修改 build.xml ，如果你使用tomcat7的话：&lt;/p&gt;
+&lt;pre&gt;  
+  &amp;lt;taskdef name="install" classname="org.apache.catalina.ant.DeployTask"&amp;gt;
+&lt;/pre&gt;
+&lt;p&gt;8. 运行 $ ant ， $ant deploy, $ant list&lt;/p&gt;
+&lt;p&gt;9. open:&amp;#160;&amp;#160; http://localhost:8080/springapp&lt;/p&gt;
+&lt;p&gt;&lt;img rel="450x450" alt="Springapp" title="Springapp" src="/system/images/BAhbB1sHOgZmIioyMDEyLzA5LzA1LzE2XzMxXzQ4Xzg3Nl9zcHJpbmdhcHAucG5nWwg6BnA6CnRodW1iIg00NTB4NDUwPg/springapp.png" height="327" width="450" /&gt;&lt;/p&gt;
+&lt;p&gt;10. 修改web.xml: &lt;/p&gt;
+&lt;pre class="programlisting"&gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+
+&amp;lt;web-app version="2.4"
+         xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+         http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd" &amp;gt;
+&lt;span class="bold"&gt;&lt;strong&gt;
+  &amp;lt;servlet&amp;gt;
+    &amp;lt;servlet-name&amp;gt;springapp&amp;lt;/servlet-name&amp;gt;
+    &amp;lt;servlet-class&amp;gt;org.springframework.web.servlet.DispatcherServlet&amp;lt;/servlet-class&amp;gt;
+    &amp;lt;load-on-startup&amp;gt;1&amp;lt;/load-on-startup&amp;gt;
+  &amp;lt;/servlet&amp;gt;
+
+  &amp;lt;servlet-mapping&amp;gt;
+    &amp;lt;servlet-name&amp;gt;springapp&amp;lt;/servlet-name&amp;gt;
+    &amp;lt;url-pattern&amp;gt;*.htm&amp;lt;/url-pattern&amp;gt;
+  &amp;lt;/servlet-mapping&amp;gt;
+&lt;/strong&gt;
+&lt;/span&gt;
+  &amp;lt;welcome-file-list&amp;gt;
+    &amp;lt;welcome-file&amp;gt;
+      index.jsp
+    &amp;lt;/welcome-file&amp;gt;
+  &amp;lt;/welcome-file-list&amp;gt;
+
+&amp;lt;/web-app&amp;gt;&lt;/pre&gt;
+&lt;p&gt; 12. 建立 WEB-INF/springapp-servlet.xml， 注意，这个文件的名字是由上面的 &amp;lt;servlet-name&amp;gt; 中的值决定的。也是一个命名优先规则。&lt;/p&gt;
+&lt;pre class="programlisting"&gt;&amp;lt;?xml version="1.0" encoding="UTF-8"?&amp;gt;
+
+&amp;lt;beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd"&amp;gt;
+  &lt;em class="lineannotation"&gt;&lt;span class="lineannotation"&gt;&amp;lt;!-- the application context definition for the &lt;tt class="literal"&gt;springapp&lt;/tt&gt; &lt;tt class="classname"&gt;DispatcherServlet&lt;/tt&gt; --&amp;gt;&lt;/span&gt;
+&lt;/em&gt;
+  &amp;lt;bean name="/hello.htm" class="springapp.web.HelloController"/&amp;gt;
+&amp;lt;/beans&amp;gt;&lt;/pre&gt;
+&lt;p&gt;13. 把需要用到的lib 文件复制到 WEB-INF/lib下。我把所有的jar文件都复制过来了。。。记得还要有commons-logging.jar, junit-4.10.jar&lt;/p&gt;
+&lt;p&gt;14. 建立一个controller &lt;/p&gt;
+&lt;pre class="programlisting"&gt;package springapp.web;
+
+import org.springframework.web.servlet.mvc.Controller;
+import org.springframework.web.servlet.ModelAndView;
+
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
+import java.io.IOException;
+
+public class HelloController implements Controller {
+    protected final Log logger = LogFactory.getLog(getClass());
+    public ModelAndView handleRequest(HttpServletRequest request, HttpServletResponse response)
+            throws ServletException, IOException {
+        logger.info("Returning hello view");
+        return new ModelAndView("hello.jsp");
+    }
+}&lt;/pre&gt;
+&lt;p&gt; 15. 建立一个 测试文件： 'springapp/test/springapp/web/HelloControllerTests.java': &lt;/p&gt;
+&lt;pre class="programlisting"&gt;package springapp.web;
+import org.springframework.web.servlet.ModelAndView;
+import springapp.web.HelloController;
+import junit.framework.TestCase;
+public class HelloControllerTests extends TestCase {
+    public void testHandleRequestView() throws Exception{		
+        HelloController controller = new HelloController();
+        ModelAndView modelAndView = controller.handleRequest(null, null);		
+        assertEquals("hello.jsp", modelAndView.getViewName());
+    }
+}&lt;/pre&gt;
+&lt;p&gt; 16. 编辑 build.xml，加入 两个任务： &lt;/p&gt;
+&lt;pre class="programlisting"&gt;    &amp;lt;property name="test.dir" value="test"/&amp;gt;
+        
+    &amp;lt;target name="buildtests" description="Compile test tree java files"&amp;gt;
+        &amp;lt;mkdir dir="${build.dir}"/&amp;gt;
+        &amp;lt;javac destdir="${build.dir}" source="1.5" target="1.5" debug="true"
+            deprecation="false" optimize="false" failonerror="true"
+            includeantruntime="false"&amp;gt;
+            &amp;lt;src path="${test.dir}"/&amp;gt;
+            &amp;lt;classpath refid="master-classpath"/&amp;gt;
+        &amp;lt;/javac&amp;gt;
+    &amp;lt;/target&amp;gt;
+    
+    &amp;lt;target name="tests" depends="build, buildtests" description="Run tests"&amp;gt;
+        &amp;lt;junit printsummary="on"
+            fork="false"
+            haltonfailure="false"
+            failureproperty="tests.failed"
+            showoutput="true"&amp;gt;
+            &amp;lt;classpath refid="master-classpath"/&amp;gt;
+            &amp;lt;formatter type="brief" usefile="false"/&amp;gt;
+            
+            &amp;lt;batchtest&amp;gt;
+                &amp;lt;fileset dir="${build.dir}"&amp;gt;
+                    &amp;lt;include name="**/*Tests.*"/&amp;gt;
+                &amp;lt;/fileset&amp;gt;
+            &amp;lt;/batchtest&amp;gt;
+            
+        &amp;lt;/junit&amp;gt;
+        
+        &amp;lt;fail if="tests.failed"&amp;gt;
+            tests.failed=${tests.failed}
+            ***********************************************************
+            ***********************************************************
+            ****  One or more tests failed!  Check the output ...  ****
+            ***********************************************************
+            ***********************************************************
+        &amp;lt;/fail&amp;gt;
+    &amp;lt;/target&amp;gt;&lt;/pre&gt;
+&lt;p&gt;17. 运行ant tests 命令。&lt;/p&gt;
+&lt;pre&gt;sg552@siwei-moto:~/workspace/new_dashboard_portal$ ant tests
+Buildfile: /home/sg552/workspace/new_dashboard_portal/build.xml
+
+build:
+
+buildtests:
+    [javac] Compiling 1 source file to /home/sg552/workspace/new_dashboard_portal/war/WEB-INF/classes
+
+tests:
+    [junit] Running HelloControllerTests
+    [junit] Testsuite: HelloControllerTests
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.012 sec
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.012 sec
+    [junit] 
+
+BUILD SUCCESSFUL
+Total time: 1 second
+&lt;/pre&gt;
+&lt;p&gt; 18. 建立 hello.jsp ('springapp/war/hello.jsp') &lt;/p&gt;
+&lt;pre class="programlisting"&gt;&amp;lt;html&amp;gt;
+  &amp;lt;head&amp;gt;&amp;lt;title&amp;gt;Hello :: Spring Application&amp;lt;/title&amp;gt;&amp;lt;/head&amp;gt;
+  &amp;lt;body&amp;gt;
+    &amp;lt;h1&amp;gt;Hello - Spring Application&amp;lt;/h1&amp;gt;
+    &amp;lt;p&amp;gt;Greetings.&amp;lt;/p&amp;gt;
+  &amp;lt;/body&amp;gt;
+&amp;lt;/html&amp;gt;&lt;/pre&gt;
+&lt;p&gt; 19 . 编译，部署 &lt;/p&gt;
+&lt;pre&gt;$ ant deploy reload&lt;/pre&gt;
+&lt;p&gt; 20 查看 &lt;a href="http://localhost:8080/springapp/hello.htm"&gt;http://localhost:8080/springapp/hello.htm&lt;/a&gt; 结果&lt;/p&gt;
+&lt;p&gt;&lt;img rel="450x450" alt="Springapp" title="Springapp" src="/system/images/BAhbB1sHOgZmIioyMDEyLzA5LzA2LzA5XzM4XzQ0Xzg2OF9zcHJpbmdhcHAucG5nWwg6BnA6CnRodW1iIg00NTB4NDUwPg/springapp.png" height="326" width="450" /&gt;&lt;/p&gt;
+</description>
+      <pubDate>Wed, 05 Sep 2012 07:34:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/create-spring-mvc-application-step-by-step</link>
+    </item>
+    <item>
+      <title>Ruby中的罕见变量(  rarely seen variables in Ruby)</title>
+      <description>&lt;p&gt;今天看到了几个比较罕见的RUBY变量，所以记录下来： ( Today I met the $name variable in Ruby which is rarely seen to me, so I made a memoranda here) 
+&lt;/p&gt;
+&lt;pre&gt;$,    A global variable, e.g. $codes = [200, 300]
+@,  An instance variable, e.g.  @name = "joey"
+[a-z] or _, 	A local variable,  e.g. var = 30
+[A-Z], A constant, e.g. RED = 'red'
+@@	A class variable, e.g. @@action = :say
+&lt;/pre&gt;
+
+下面是一些系统定义好的变量： ( below are some predefined variables ) 
+&lt;pre&gt;$@ 	The location of latest error
+$_ 	The string last read by gets
+$. 	The line number last read by interpreter
+$&amp;amp; 	The string last matched by regexp
+$~ 	The last regexp match, as an array of subexpressions
+$n 	The nth subexpression in the last match (same as $~[n])
+$= 	The case-insensitivity flag
+$/ 	The input record separator
+$\ 	The output record separator
+$0 	The name of the ruby script file currently executing
+$* 	The command line arguments used to invoke the script
+$$ 	The Ruby interpreter's process ID
+$? 	The exit status of last executed child process
+&lt;/pre&gt;
+</description>
+      <pubDate>Tue, 04 Sep 2012 07:19:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/rarely-seen-variables-in-ruby</link>
+    </item>
+    <item>
+      <title>Grails 基础用法( Grails basics for newbies   )</title>
+      <description>&lt;p&gt;1. 安装：&amp;#160; 需要下载JDK， GRAILS等文件并设置以下变量： ( setup:&amp;#160; download related files and set the variables ) &lt;br /&gt;&amp;#160;&amp;#160; 1.1&amp;#160; JAVA_HOME &lt;br /&gt;&amp;#160;&amp;#160; 1.2&amp;#160; GRAILS_HOME&lt;br /&gt;&amp;#160;&amp;#160; 1.3&amp;#160; PATH&lt;/p&gt;
+&lt;p&gt;2. 设置代理服务器:&amp;#160;&amp;#160; ( set the proxy ) &lt;br /&gt;
+&lt;/p&gt;
+&lt;pre&gt;    $ grails add-proxy  –host= –port=
+    e.g.   $ grails add-proxy client –host=proxy –port=3128 
+    Switching to the setting involves only
+    $ grails set-proxy client
+    to enable the proxy setting, and
+    $ grails clear-proxy
+&lt;/pre&gt;
+
+
+&lt;p&gt;3. 设置代理服务器的第二种方法： ( approach 2. set the proxy) &lt;br /&gt;
+&lt;/p&gt;
+&lt;pre&gt;/ * EDIT this file:  grails-app/conf/BuildConfig.groovy   */ 
+ System.properties.putAll([
+   "http.proxyHost": "wwwgate0-ch.mot.com",
+   "http.proxyPort": "1080",
+ ])&lt;/pre&gt;
+&lt;p&gt;4. 运行：&amp;#160; (run with another port)&lt;br /&gt;&amp;#160;$ grails -Dserver.port=8081 run-app&lt;/p&gt;
+</description>
+      <pubDate>Tue, 04 Sep 2012 02:41:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/grails-basics</link>
+    </item>
+    <item>
+      <title>需求变更的太快怎么办？(what if the requirement changes too frequently? )</title>
+      <description>&lt;p&gt;昨天跟一位朋友讨论问题，谈到了需求变更。他说目前正在遭遇这个情况，变更的太厉害了。2，3天变动一次。需求一变，很多代码都不能用了，包括单元测试代码。而且跑起来一片红。(Yesterday I had a talk with a friend who is suffering the frequent requirements changing. His team has been struggling for this situation that the requirement changes every 2 or 3 days, and every time the change occurs, lots of code including unit tests code doesn't work any more. )&lt;/p&gt;
+&lt;p&gt;所以他问我是如何看待这个问题的，以及解决办法是什么。( So he asked me how did I think about this issue and what my solution is. )&lt;/p&gt;
+&lt;p&gt;我的回答是： &amp;#160;( My answers are: )&lt;/p&gt;
+&lt;p&gt;1. 关于看待这个问题： &amp;#160;需求变动是正常的。Kent说过： 软件开发中唯一不变的就是需求会变化. &amp;#160;很多需求在被（客户或者产品经理）提出的时候，都没有被完善和想好。很多产品都是一点一点的在开发中完善的。如果一个产品，一旦提出需求之后，不允许客户提变动，那么你就是在跟客户博弈，严重的后果就是失去客户。所以，我们要鼓励客户提出合理的需求变更。 &amp;#160;( 1. about how did I think about requirement changes: &amp;#160;it's normal and understandable. &amp;#160;Kent said: &amp;#160;the only thing that doesn't change in software development is : it always changes. &amp;#160;Most of the requirements are not mature and just an idea, the end-user even don't know what they want. Many and many ideas/products becomes full-fledged in the development processing. &amp;#160;If as a team leader, you don't allow end-users change the requirement, you are probably losing your client. So, &amp;#160;reasonable change request should be encouraged. &amp;#160;)&lt;/p&gt;
+&lt;p&gt;这里的“合理”指的是： &amp;#160;1. 这个需求是经过深思熟虑的，在逻辑上是行的通，没有前后矛盾的。 &amp;#160;2. 这个需求是可行的。 ( here the 'reasonable' means: 1. this requirement changing is well considered, there's no conflicting there. 2. the new requirement is possible to implemented using current technology) &lt;/p&gt;
+&lt;p&gt;2. 解决办法：&amp;#160; ( solutions are: )&lt;br /&gt;&amp;#160; 2.1 新需求是要合理的。&amp;#160; ( the new requirement must be 'reasonable' ) &lt;br /&gt;&amp;#160; 2.2 保持一个开发节奏。例如以一个星期为单位。这个星期内，一旦需求定下来，就不能更改。 ( keep a healthy development rhythm. e.g. make a week as an iteration. once developer starts coding in this week, the requirement could not be changed until the next week comes. )&lt;br /&gt;&amp;#160; 2.3 过时的代码该删就删，不能忍痛留着。无用的代码只会迷惑我们。&amp;#160; ( deprecated code should be always removed, otherwise they will become confusing ) &lt;br /&gt;&amp;#160; 2.4 开发人员的能力至关重要。( the peopleware is the most important. The code written by experienced developer will be always easy to refactor and make changes. )&lt;/p&gt;</description>
+      <pubDate>Thu, 30 Aug 2012 02:51:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/what-if-the-requirements-change-too-frequently</link>
+    </item>
+    <item>
+      <title>SQL 知识复习( SQL tips review) </title>
+      <description>&lt;p&gt;SQL 是我最初接触编程时用到的技术。我仅仅在05年的两个项目中使用过。一个是毕业设计，另一个是帮同学写的毕业设计。o(∩∩)o...哈哈。 ( Raw SQL is the technology that I used in my early programming life. I have used them for 2 applications on 2005)&lt;/p&gt;
+&lt;p&gt;后来就使用了持久层的技术，( Hibernate, ActiveRecord, Mongoid ) ，所以我的raw SQL底子很差。 (After 2005, I knew the concept "Data Persistent" and used many of the Object-Relational Mapping tools such as: Hibernate(java), ActiveRecord(Ruby on Rails) and Mongoid, even there're some document based database which even directly support model operatons)&lt;/p&gt;
+&lt;p&gt;尽管在工作中使用了很多 持久层的技术，以及 文档数据库，但是，了解底层的SQL语句仍然是非常重要的。所以，在这里我把一些边际知识回顾一下(It's very important and very helpful to know the details of the raw SQL although we are working with those data-persistence tool or document based database.&lt;/p&gt;
+&lt;h3&gt;1. Join&amp;#160;&lt;/h3&gt;
+&lt;p&gt;看到这个图片，我很惊喜，把各种join的用法都说清楚了. ( so , today when I was reviewing the Raw SQL knowledges, I saw this picture. It illustrated all the cases for "Joins" very clearly)&amp;#160;&lt;/p&gt;
+&lt;p&gt;&lt;img src="/system/images/BAhbB1sHOgZmIioyMDEyLzA4LzI4LzE1XzEyXzU4XzU0OF9zcWxfam9pbnMuanBnWwg6BnA6CnRodW1iIg00NTB4NDUwPg/sql_joins.jpg" title="Sql Joins" alt="Sql Joins" rel="450x450" width="450" height="354" /&gt;&lt;/p&gt;
+&lt;h3&gt;2. group by&lt;/h3&gt;
+&lt;p&gt;重点是 ：  对多个列进行group by, (let's focus on the multiple columns' group by)&lt;/p&gt;
+&lt;pre&gt;  column1    column2
+  1              a
+  1              a
+  2              a
+  2              c
+ 
+  group by column 1 :      
+  1          a
+  2          a
+  group by column 2 : 
+  1          a
+  2          c
+  group by column1, column2   ( or group by column2, column1 )
+  1          a
+  2          a
+  2          c
+&lt;/pre&gt;
+
+&lt;h3&gt;3. count() &lt;/h3&gt;
+&lt;p&gt;1. 对于普通的count(*) 非常好理解， 返回当前表中的记录行数&lt;/p&gt;
+&lt;pre&gt;  column1    column2
+  1              a
+  1              a
+  2              a
+  2              c
+  select count(*) from ...    
+  4
+&lt;/pre&gt;
+&lt;p&gt;当group by 分句存在时，返回分组的条数。&lt;/p&gt;
+&lt;pre&gt;  column1    column2
+  1              a
+  1              a
+  2              a
+  2              c
+  select count(*) from ... group by column1  
+  2
+  2
+&lt;/pre&gt;
+
+&lt;h3&gt;练习题 (Example)&lt;/h3&gt;
+&lt;p&gt; &lt;a href="http://stackoverflow.com/questions/12168751/use-plain-sql-to-match-pairs-of-rows-from-a-table"&gt;见这里(see here)&lt;/a&gt; &lt;/p&gt;</description>
+      <pubDate>Tue, 28 Aug 2012 06:52:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/sql-join-review</link>
+    </item>
+    <item>
+      <title>适用设计模式的典型场合（typical use cases for design patterns) </title>
+      <description>&lt;p&gt;1. decorator: &amp;#160;向一杯咖啡中，加入 牛奶，糖，巧克力。 或者加入双份巧克力。 ( add sugar, milk and chocolate to a cup of coffee, or add double of sugar to the coffee)&amp;#160;&lt;/p&gt;
+&lt;p&gt;2. template: &amp;#160;一份文档，要生成多种格式：HTML, 纯文本，CSV（格式固定由：头，主体，尾部组成） &amp;#160;(Given a source data, &amp;#160;generate multiple formats of documents, e.g. HTML , plain old text and CSV, all of them contains the same structure: HEAD, CONTENT, FOOTER )&amp;#160;&lt;/p&gt;
+&lt;p&gt;3. strategy: &amp;#160;一份文档，要生成多种格式： HTML ， 纯文本等等，但是他们的格式不同，例如： HTML 有头，有尾有主干，而纯文本的话只需要主干内容，CSV的话，只有头和主干。 (given a source data, generate, generate multiple formats of documents, e.g. HTML, plain old text and CSV, all of them have the different format. e.g. HTML: head, body, footer. TEXT: content only. CSV: header and content )&amp;#160;&lt;/p&gt;
+&lt;p&gt;4. proxy: 需要对某个资源的访问进行权限控制。例如检查用户名密码等。 ( need access control to a resource)&lt;/p&gt;</description>
+      <pubDate>Mon, 27 Aug 2012 22:49:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/typical-uses-cases-for-design-patterns</link>
+    </item>
+    <item>
+      <title>软件开发中的两个东东碰不得（ two traps in software development: history and multiple thread)</title>
+      <description>&lt;p&gt;两个东东碰不得： &amp;#160; (There're two kind of nightmares in the software requirement/development)&amp;#160;&lt;/p&gt;
+&lt;p&gt;1. 多个模型的历史记录，版本对比 &amp;#160;（多表历史记录） &amp;#160;(multiple model history/revision)&lt;/p&gt;
+&lt;p&gt;2. 具有复杂流程的多线程。 ( multiple thread with somehow complicated business logic)&amp;#160;&lt;/p&gt;
+&lt;p&gt;其中第一个是最郁闷的。每做必挂。我认为以目前的数据库技术，无法有效解决多个模型的版本对比。（document based DB 的 embed 1 to many 除外，当然了，这个情况也不是最理想的） &amp;#160; ( Case 1. is definitely a very hard problem, I don't think there's a algorithm that could solve this problem -- although there's a case that a document base DB has a document embedding 1 to many relationship )&amp;#160;&lt;/p&gt;
+&lt;p&gt;我在2007年自己做过这个，很难测试，难于维护，不稳定。不过幸好没怎么用。 ( I finished a task of case 1, the implementation is hard to test, hard to maintain and not stable at all )&amp;#160;&lt;/p&gt;
+&lt;p&gt;我的两个同事也做过这个，其中一个同事因此离职，另一个同事写的代码基本没法看，更没法维护。他做完这个不久也离职了。( 2 of my workmates also have done this kind of job. One was fired by the boss about this issue, another one, who seems better, &amp;#160;has done the task, but the job was done very ugly and impossible to understand. BTW he also was fired after he finished that feature)&amp;#160;&lt;/p&gt;
+&lt;p&gt;二，多线程问题。记住：再复杂的问题，在多线程面前也是小巫见大巫。如果在单线程的情况下，这个问题的复杂度是1， 那么在多线程的情况下，它的复杂度就会变成100. 让你各种无语啊。 最恶劣的情况是： &amp;#160;难于测试，难于开发！ &amp;#160;( Case 2. the multiple thread programming. Remember: &amp;#160;Whatever complicated a problem is in a single thread context, it will be even more complicated in the multiple thread environment! &amp;#160; it seems no way to write the unit test (at least for me it is! ) )&lt;/p&gt;
+&lt;p&gt;今天先卖个关子，回头我把实际的需求和实现的代码发出来，一对比就知道了。。。 &amp;#160;( I will post the code and the implementation for this 2 issues later. &amp;#160;I promise you will learn a lesson. &amp;#160;)&lt;/p&gt;</description>
+      <pubDate>Mon, 27 Aug 2012 22:40:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/traps-in-software-development</link>
+    </item>
+    <item>
+      <title>为Refinery 使用Blueprint CSS (use Blueprint CSS for your Refinery CMS)</title>
+      <description>&lt;p&gt;1. 下载 Blue print, 并压缩。 (Download the Blueprint CSS zipball, from : )  &lt;a href="http://www.blueprintcss.org/" target="_blank"&gt;Blue print website &lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;2. 解压缩，压缩后的文件夹中，有一个叫blueprint的目录，复制到 refinery 项目中。 (Unzip the file and then copy the related files to your refinery folder: )&lt;br /&gt;
+  2.1   把对应的CSS 和 image 文件COPY过去  (copy the css file and image file to the asses folder if you are using Rails3) &lt;br /&gt;
+&lt;/p&gt;
+&lt;pre&gt; cp blueprint/ /apps/personal_site/app/assets/stylesheets/ -r &lt;/pre&gt;
+&lt;pre&gt; cp src/grid.png /apps/personal_site/app/assets/images/src/ &lt;/pre&gt;
+
+&lt;p&gt;3. 重点来了： 编译assets &amp;#160;( Now let's work on the assets : )&lt;br /&gt;
+  3.1 生成自定制的layout文件。 &amp;#160;( generate customized layout file )&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre&gt;$ bundle exec rake refinery:override view=layouts/application
+&lt;/pre&gt;
+&lt;p&gt;
+  3.2   编辑 application.html.erb &amp;#160;( edit this file)&amp;#160;&lt;/p&gt;
+&lt;pre&gt;  # app/views/layouts/application.html.erb 
+  ......
+  &amp;lt;%= render '/refinery/head' %&amp;gt; 
+  ......
+&lt;/pre&gt;
+&lt;p&gt;
+  3.3   编辑  app/assets/stylesheets/application.css &amp;#160;( edit this file )&amp;#160;&lt;/p&gt;
+&lt;pre&gt;  *= require_self
+  *= require blueprint/screen.css
+  *= require blueprint/print.css
+&lt;/pre&gt;
+&lt;p&gt;
+  3.4 编辑  print.css , 注释掉最后一行： ( comment out the last line of print.css)&lt;/p&gt;
+&lt;pre&gt;/* a:link:after, a:visited:after {content:” (” attr(href) “)”;font-size:90%;} 
+*/
+  &lt;/pre&gt;
+
+&lt;p&gt;4. 编译assets: &amp;#160; (compile the assets)&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre&gt; RAILS_ENV=production bundle exec  rake assets:precompile &lt;/pre&gt;
+
+&lt;p&gt;5. 重启Rails: &amp;#160;(restart Rails )&amp;#160;&lt;/p&gt;
+</description>
+      <pubDate>Fri, 24 Aug 2012 09:35:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/add-blueprint-css-to-your-refinerycms</link>
+    </item>
+    <item>
+      <title>一种实现模式：钩子方法  (An implement pattern: hook method)  </title>
+      <description>&lt;p&gt;我们经常会用到hook 方法（钩子方法）. 例如： before, after, ... &amp;#160;比如rails，比如delayed_job中。 &amp;#160; ( We have been seen this kind of code everywhere: &amp;#160;before, after... in rails or other libraries such as delayed_job. they are called 'hook method' )&lt;/p&gt;
+&lt;p&gt; 最基本的设想是这样的 ( the simplest implementation is as below )&lt;/p&gt;
+&lt;pre&gt;def run
+  before
+  core_method
+  after
+end
+def core_method;  puts 'running the core method' ; end
+def before;   puts 'something happens before hand' ; end
+def after;  puts 'finally...' ; end
+
+run    # =&amp;gt;   'something happens before hand'
+       # =&amp;gt;   'running the core method'
+       # =&amp;gt;   'finally...'&lt;/pre&gt;
+
+&lt;p&gt; 尽管上面的代码也工作， 但是还有更好的办法。可读性更强。比如delayed_job 中所使用的： ( Yes, the above code works, however there's a better way to improve the readability. see the implementation from delayed_job as below )&lt;/p&gt;
+&lt;pre&gt;class ParanoidNewsletterJob &amp;lt; NewsletterJob
+  def perform
+    emails.each { |e| NewsletterMailer.deliver_text_to_email(text, e) }
+  end
+  def before(job)
+    record_stat 'newsletter_job/start'
+  end
+&lt;/pre&gt;
+
+&lt;p&gt;我们可以看到，delayed job 源代码中，中把hook进一步写成了一个macro ( 模拟宏) &amp;#160; ( &amp;#160;We could find that Delayed_job 's source code implements the hooks as a class macro )&amp;#160;&lt;/p&gt;
+&lt;pre&gt;      def hook(name, *args)
+        if payload_object.respond_to?(name)
+          method = payload_object.method(name)
+          method.arity == 0 ? method.call : method.call(self, *args)
+        end
+      rescue DeserializationError
+        # do nothing
+      end
+&lt;/pre&gt;
+&lt;p&gt; 然后就可以写成更加自然/理所当然/一目了然的方式： &amp;#160;( Then, the code is more straight forward...)&lt;/p&gt;
+&lt;pre&gt;      
+     def invoke_job
+        hook :before      # instead of:  payload_object.send(:before)
+        payload_object.perform
+        hook :success
+      rescue Exception =&amp;gt; e
+        hook :error, e
+        raise e
+      ensure
+        hook :after
+      end
+&lt;/pre&gt;
+&lt;p&gt; 怎么样？  使用了 "hook" 做为macro, 是不是一目了然，核心方法 payload_object.perform 赫然出现。hooks 把它围绕在中心。效果是不是比原来的代码要容易了不少呢？ &amp;#160;( see it? it's more obvious that 'before', 'success' are hooks and the 'payload_object.perform' is the core method. &amp;#160;)&amp;#160;&lt;/p&gt;</description>
+      <pubDate>Fri, 24 Aug 2012 03:27:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/implementation-pattern-hook-method</link>
+    </item>
+    <item>
+      <title>使用whenever gem代替 crontab ( use whenever rubygem instead of crontab ) </title>
+      <description>&lt;p&gt;&amp;#160;在一个项目中，会有很多情况要用到crontab，最常见的是：&lt;/p&gt;
+&lt;p&gt;1. 定时备份数据库&lt;/p&gt;
+&lt;p&gt;2. 定时删除无用的日志。&lt;/p&gt;
+&lt;p&gt;使用 crontab 的话，需要这样写：
+
+&lt;/p&gt;
+&lt;pre&gt;0 * * * * /bin/bash -l -c 'cd /home/sg552/workspace/babble_porta  .....  
+&lt;/pre&gt;
+可读性很差。 
+
+&lt;p&gt;而如果使用whenever 的话，就可以弄的非常优雅：
+Whenever is a Ruby gem that provides a clear syntax for writing and deploying cron jobs. &lt;/p&gt;
+1. 安装(Installation ) :   $ gem install whenever   或者：   Or with Bundler in your Gemfile.
+&lt;pre&gt;gem 'whenever', :require =&amp;gt; false
+&lt;/pre&gt;
+2. 建立对应的文件config/schedule.rb     ：  ( create config file) 
+&lt;pre&gt;$ cd /apps/my-great-project
+$ wheneverize .
+&lt;/pre&gt;
+This will create an initial config/schedule.rb file for you.
+&lt;pre&gt;# config/schedule.rb 
+every 5.minutes do
+  runner "UserWatchedRepo.update"
+end
+
+# in another file, we defined the 'runner'. 
+class UserWatchedRepo
+  def update
+    # do something
+  end
+end
+&lt;/pre&gt;
+
+3. 然后，我们可以查看他生成的crontab:    ( let's check what content it generated )  内容仅供参考 
+&lt;pre&gt;sg552@siwei-moto:~/workspace/babble_portal$ whenever
+0 0 1,3,5,7,9,11,13,15,17,19,21,23,25,27,29,31 * * /bin/bash -l -c 'cd /home/sg552/workspace/babble_portal &amp;amp;&amp;amp; RAILS_ENV=production bundle exec rake 
+....................................
+## [message] Above is your schedule file converted to cron syntax; your crontab file was not updated.
+## [message] Run `whenever --help' for more options.
+&lt;/pre&gt;
+&lt;p&gt;
+4. 最后，让这个crontab 生效： (at last, let's make it to take effect ) &lt;/p&gt;
+&lt;pre&gt;sg552@siwei-moto:~/workspace/babble_portal$ whenever --update-crontab
+[write] crontab file updated&lt;/pre&gt;
+&lt;p&gt;末尾，语法参考，几个区别：&amp;#160;&amp;#160; ( differences between command, runner and rake)&lt;/p&gt;
+&lt;p&gt;command : 用的是最纯粹的shell command. 例如 :&amp;#160;&amp;#160; 'touch /tmp/some_file"&amp;#160;&amp;#160;&amp;#160; ( a shell command) &lt;/p&gt;
+&lt;p&gt;runner :&amp;#160; 用的是Ruby的类，例如：&amp;#160;&amp;#160;&amp;#160;&amp;#160; SomeClass.some_method&amp;#160;&amp;#160; ( a ruby's method call)&lt;/p&gt;
+&lt;p&gt;rake :&amp;#160; 用的是rake 命令。&amp;#160;&amp;#160; ( a rake task ) &lt;/p&gt;
+</description>
+      <pubDate>Thu, 23 Aug 2012 06:13:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/use-whenever-instead-of-crontab</link>
+    </item>
+    <item>
+      <title>问题与解决方案：rails中的gem也会影响到内存占用(more gems consume more memories in rails app)</title>
+      <description>&lt;p&gt;在一个rails 应用中，都会遇到优化的问题。 （ 跟java不太一样。呵呵） &amp;#160; ( every Rails app will meet the performance optimization problems when or before it is being delivered. &amp;#160;-- which is not the same with JAVA, as far as I know, &amp;#160;it is much less things to do for java app. )&amp;#160;&lt;/p&gt;
+&lt;p&gt;而我最近遇到了一个问题，就是发现，不同的rails app占用的内存不一样。似乎这个问题主要由rubygems引起的。(recently I met a problem that different rails applications consume different memories, and it seems that the root cause of this problem is the rubygems )&lt;/p&gt;
+&lt;p&gt;项目A：引用了 38个gem, 运行起来占用 100MB 内存。 (app A: required 38 gems, and cost me 100 MB memories)&amp;#160;&lt;/p&gt;
+&lt;p&gt;项目B： 引用了 10个 gem, 运行起来占用 30 MB 内存。（app B: required 10 gems and cost me 30 MB memories when running)&lt;/p&gt;
+&lt;p&gt;所以，优化gems的几个方法： ( so this is the solutions: )&lt;/p&gt;
+&lt;p&gt;1. 使用 groups. 这样在发布的时候，就可以忽略devlopment, test 这些group中定义的gem . &amp;#160;例如： &amp;#160;( define groups for different gems by purpose. e.g. &amp;#160;'production' environment will ignore those gems in 'development' groups)&lt;br /&gt;
+&lt;/p&gt;
+&lt;pre&gt;# gems used only for test/dev purpose
+group :test, :development do
+  gem "rspec-rails", "&amp;gt;= 2.5.0"
+  gem 'factory_girl', '2.6.4'
+  gem 'factory_girl_rails'
+end
+
+# Gems used only for assets and not required
+# in production environments by default.
+group :assets do
+  gem 'sass-rails',   '~&amp;gt; 3.2.3'
+  gem 'coffee-rails', '~&amp;gt; 3.2.1'
+end
+&lt;/pre&gt;
+
+&lt;p&gt;2. 使用 require =&amp;gt; false 来声明gem, 但是等到需要的时候才require . 例如： &amp;#160;( use :require =&amp;gt; false to install the gems but not 'require' them automatically )&lt;/p&gt;
+&lt;pre&gt;gem 'whenever', :require =&amp;gt; false
+&lt;/pre&gt;
+&lt;p&gt;参考资料：&lt;a href="http://stackoverflow.com/questions/4800721/bundler-what-is-the-require-false-on-the-gemfile-means" title="http://stackoverflow.com/questions/4800721/bundler-what-is-the-require-false-on-the-gemfile-means" target="_blank"&gt;http://stackoverflow.com/questions/4800721/bundler-what-is-the-require-false-on-the-gemfile-means&lt;/a&gt;
+&lt;/p&gt;
+
+</description>
+      <pubDate>Wed, 22 Aug 2012 01:45:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/more-rubygems-consume-more-memories-in-rails</link>
+    </item>
+    <item>
+      <title>centos非root用户安装软件(install package with non-root user)</title>
+      <description>&lt;p&gt;虽然我喜欢ubuntu, 虽然我做惯了root, 但是还是会遇到自己是non root用户的时候。要安装一个mysql client.&amp;#160; ( Though I love using ubuntu, and I have been used to be root, however in real world I have to be non-root for some times, so , today, I have to install mysql client for myself. ) &lt;/p&gt;
+&lt;p&gt; 假设你的HOME 目录是 /home/user, 假设要安装的rpm是: package.rpm: ( assuming your HOME folder is: /home/user, and the target package you want to install is: package.rm) &lt;/p&gt;
+&lt;pre&gt;1.rpm –initdb –root /home/user/local –dbpath lib/rpm&lt;/pre&gt;
+&lt;pre&gt;2.rpm -qlp package.rpm&lt;/pre&gt;
+&lt;pre&gt;3.rpm -ivh package.rpm&lt;/pre&gt;
+&lt;pre&gt;4.rpm –root /home/user/local –dbpath lib/rpm --relocate /usr=/home/username/local --nodeps -ivh package.rpm&lt;/pre&gt;
+&lt;p&gt;参考： &lt;a href="http://ajaya.name/?p=6353" target="_blank"&gt;Install a rpm in home directory as non-root &lt;/a&gt;
+&lt;/p&gt;</description>
+      <pubDate>Tue, 21 Aug 2012 07:33:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/install-rpm-as-non-root</link>
+    </item>
+    <item>
+      <title>Rails: 记得要定时清理session 表 ( Rails: Do remember to clear your session table! )</title>
+      <description>&lt;p&gt;明天要给国外同事做一个演示，关于我过去一年多参与的项目。于是我打算在生产服务器上做，环境很干净，而且速度快（8G内存）。于是乎，我就做了个数据库备份。( Due to a demonstration for a project that I have been working on since last year on tomorrow, to some US workmates, I did a database backup operation on the production server which is more faster than another server, and hope to restore the data once the demo is done. )   &lt;/p&gt;
+&lt;pre&gt;[babble@bportal02 ~]$ /home/kcv478/local/bin/mysqldump -u babble -p -h dbbabble-vip01.mcloud201.blur.svcmot.com babble_portal &amp;gt; babble_portal.sql
+&lt;/pre&gt;
+&lt;p&gt;可是，当我仔细查看文件的时候，我愣了。。。( However I was shocked when the dump is done ) &lt;/p&gt;
+&lt;pre&gt;-rw-rw-r--   1 babble babble 223512238 Aug 21 06:26 babble_portal.sql
+&lt;/pre&gt;
+&lt;p&gt;这么多位数字。。。我数数。。。 223 MB。 奇了怪了，这个APP现在应该啥数据都没有，只有些初始化的数据啊。( 223MB.... so strange, it should don't contain any data except some initial data that used by the system, less than 1k. ) &lt;/p&gt;
+&lt;p&gt;找了一下原因，发现是这样的：&amp;#160;&amp;#160;&amp;#160;&amp;#160; ( after digging into the problem, I found that: )&lt;br /&gt;1. 我们使用了session store.&amp;#160;&amp;#160; ( 1. we used session store instead of cookie store) &lt;br /&gt;2. 有个监控程序，每秒ping 一下系统。 ( 2. there's a monitor system which has been pinging our app every 1 second)&lt;br /&gt;于是，从 8月7号到现在（8月21号），session表中产生了 120万条记录。&amp;#160; ( so, from Aug 7th til now, 1.2 million records were created in the sessions table by Rails) &lt;/p&gt;
+&lt;p style="color: darkred; font-weight:bold"&gt;问题的根源是：&amp;#160; Rails 不会主动删除这些session 数据！ ( and the interesting thing is: Rails will never delete these data automatically ) &lt;/p&gt;
+&lt;p&gt;解决办法简单了：&lt;br /&gt;1. 你可以使用crontab + mysql client.&amp;#160; &lt;br /&gt;2. 你可以使用 rake task + crontab&lt;br /&gt;3. 你也可以使用 &lt;a target="_blank" title="https://github.com/javan/whenever" href="https://github.com/javan/whenever"&gt;whenever&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;我打算使用 &lt;a target="_blank" title="https://github.com/javan/whenever" href="https://github.com/javan/whenever"&gt;whenever&lt;/a&gt; 来做。改天记录下来吧～～～&amp;#160; &lt;/p&gt;
+&lt;p&gt;参考：&amp;#160;&lt;a href="http://realityforge.org/code/rails/2006/03/01/removing-stale-rails-sessions.html" title="http://realityforge.org/code/rails/2006/03/01/removing-stale-rails-sessions.html" target="_blank"&gt;http://realityforge.org/code/rails/2006/03/01/removing-stale-rails-sessions.html&lt;/a&gt;
+&lt;/p&gt;</description>
+      <pubDate>Tue, 21 Aug 2012 07:01:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/remember-to-clear-the-session-table-for-rails</link>
+    </item>
+    <item>
+      <title>使用mongodb 的基本命令 ( basic commands for mongodb)</title>
+      <description>&lt;p&gt;说实话，我觉得挺奇怪的，不能自动的 repair, 然后启动吗？&amp;#160; 名字还叫做 fork... 叫daemon 多好理解啊哥哥。。。&lt;/p&gt;
+&lt;p&gt;启动(start)：&amp;#160; sudo mongod -f /etc/mongodb.conf --fork&lt;/p&gt;
+&lt;p&gt;系统不正常关机之后，需要修复(repair)：&amp;#160; sudo mongod -f /etc/mongodb.conf --repair&lt;/p&gt;
+&lt;p&gt;加入embed记录：(insert embedded record)&lt;/p&gt;
+&lt;pre&gt;&amp;gt; show collections;
+destricts
+districts
+system.indexes
+&amp;gt; db.destricts.remove()
+&amp;gt; db.districts.find()
+{ "_id" : ObjectId("503312e519cdff8116fbe353"), "name" : "haizhouqu" }
+{ "_id" : ObjectId("5033131119cdff8116fbe354"), "name" : "taipingqu", "child_locations" : { "name" : "zhonghualu" } }
+&amp;gt; street1 = { "name": "jiefangdajie"}
+{ "name" : "jiefangdajie" }
+&amp;gt; street2 = {"name" : 'zhonghualu'}
+{ "name" : "zhonghualu" }
+&amp;gt; db.districts.insert({'name': 'xihequ', child_locations: [street1, street2]})
+&amp;gt; db.districts.find()
+{ "_id" : ObjectId("503312e519cdff8116fbe353"), "name" : "haizhouqu" }
+{ "_id" : ObjectId("5033131119cdff8116fbe354"), "name" : "taipingqu", "child_locations" : { "name" : "zhonghualu" } }
+{ "_id" : ObjectId("50331415bb69e1c371096a6b"), "name" : "xihequ", "child_locations" : [ { "name" : "jiefangdajie" }, { "name" : "zhonghualu" } ] }
+&amp;gt; 
+
+&lt;/pre&gt;</description>
+      <pubDate>Tue, 21 Aug 2012 03:03:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/basic-usage-for-mongodb</link>
+    </item>
+    <item>
+      <title>不要多表版本控制 ( Never try to use multiple table version control )</title>
+      <description>&lt;p&gt;TODO: more content here&lt;/p&gt;</description>
+      <pubDate>Mon, 20 Aug 2012 21:57:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/no-multiple-table-version-control</link>
+    </item>
+    <item>
+      <title>前几天被一个动态规划的题目难倒了。。。( a dynamic program question:triangle. ) </title>
+      <description>
+&lt;p&gt;&lt;a target="_blank" title="http://poj.org/problem?id=1163" href="http://poj.org/problem?id=1163"&gt;参考：http://poj.org/problem?id=1163&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;做为一个WEB开发的人，我表示对数据结构一无所知，一塌糊涂，忘的一光二净，看题时一头雾水，解题时异想天开。所以。。。同学们不必看了。。。写在这里，就不往github上放了。。。 &lt;/p&gt;
+&lt;p&gt;有个题目：给出一个树状结构：&lt;br /&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; A&lt;br /&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; B&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; C &lt;br /&gt;&amp;#160;&amp;#160;&amp;#160;&amp;#160; D&amp;#160;&amp;#160;&amp;#160;&amp;#160; E&amp;#160;&amp;#160;&amp;#160;&amp;#160; F&lt;br /&gt;&amp;#160; G&amp;#160;&amp;#160;&amp;#160; H&amp;#160;&amp;#160;&amp;#160;&amp;#160; I&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160;&amp;#160; J&lt;br /&gt;列出所有可能的路径， 例如：&amp;#160;&amp;#160; &lt;br /&gt;1.&amp;#160; ABDG&lt;br /&gt;2.&amp;#160; ABDH&lt;br /&gt;3.&amp;#160; ABEH&lt;br /&gt;4.&amp;#160; ABEI 。。。&lt;/p&gt;
+&lt;p&gt;一想就是个递归函数。。。头大啊。所以，我的思维不够灵光，只好用最笨的方法来遍历它。RUBY代码放在这里，有机缘的时候再试试其他的ACM题目吧。。。&lt;/p&gt;
+&lt;pre&gt;class Tree
+  def initialize(nodes)
+    @nodes = nodes
+
+    # init the matrix
+    @matrix = []
+    @nodes.each_with_index { |row, i | 
+        @matrix[i] = []
+        row.each_with_index { |cell, j|
+            @matrix[i][j] = cell
+        }   
+    }   
+  end 
+  def print
+    @matrix.each { |row| puts row.inspect; }
+  end 
+  def routes
+    @result = []
+    set_route_by_node(0, 0, "") 
+    puts '==='
+    puts @result
+  end 
+  def set_route_by_node(column_index, row_index, route_from_parent)
+    route = route_from_parent + @matrix[row_index][column_index]
+    puts "== considering: row:#{row_index}, column:#{column_index}, route: #{route}"
+    # should return for the leaves.
+    if row_index + 1 == @matrix.size
+      puts '++++++++++++++++++++++++++++++++== a branch is done'
+      @result &amp;lt;&amp;lt; route
+    else
+      # left child
+      puts '-- setting left child'
+      set_route_by_node(column_index, row_index + 1, route)
+      # right child
+      puts '-- setting right child'
+      set_route_by_node(column_index + 1, row_index + 1, route)
+    end
+  end
+end
+
+tree = Tree.new([['a'], ['b','c'], ['d','e','f'], ['g','h','i','j']])
+
+# a
+# b  c
+# d  e  f
+# g  h  i  j
+tree.print
+
+# "a,b,d,g"
+# "a,b,d,h"
+# "a,b,e,g"
+# "a,b,e,h" ...
+tree.routes
+&lt;/pre&gt;
+&lt;p&gt;输出是：&lt;/p&gt;
+&lt;pre&gt;sg552@siwei-moto:~/workspace/recursive_function_exams$ ruby print_tree.rb
+["a"]
+["b", "c"]
+["d", "e", "f"]
+["g", "h", "i", "j"]
+== considering: row:0, column:0, route: a
+-- setting left child
+== considering: row:1, column:0, route: ab
+-- setting left child
+== considering: row:2, column:0, route: abd
+-- setting left child
+== considering: row:3, column:0, route: abdg
+++++++++++++++++++++++++++++++++== a branch is done
+-- setting right child
+== considering: row:3, column:1, route: abdh
+++++++++++++++++++++++++++++++++== a branch is done
+-- setting right child
+== considering: row:2, column:1, route: abe
+-- setting left child
+== considering: row:3, column:1, route: abeh
+++++++++++++++++++++++++++++++++== a branch is done
+-- setting right child
+== considering: row:3, column:2, route: abei
+++++++++++++++++++++++++++++++++== a branch is done
+-- setting right child
+== considering: row:1, column:1, route: ac
+-- setting left child
+== considering: row:2, column:1, route: ace
+-- setting left child
+== considering: row:3, column:1, route: aceh
+++++++++++++++++++++++++++++++++== a branch is done
+-- setting right child
+== considering: row:3, column:2, route: acei
+++++++++++++++++++++++++++++++++== a branch is done
+-- setting right child
+== considering: row:2, column:2, route: acf
+-- setting left child
+== considering: row:3, column:2, route: acfi
+++++++++++++++++++++++++++++++++== a branch is done
+-- setting right child
+== considering: row:3, column:3, route: acfj
+++++++++++++++++++++++++++++++++== a branch is done
+===
+abdg
+abdh
+abeh
+abei
+aceh
+acei
+acfi
+acfj&lt;/pre&gt;
+</description>
+      <pubDate>Mon, 20 Aug 2012 04:40:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/the-simplest-acm-question-the-triangle</link>
+    </item>
+    <item>
+      <title>如何入门 nodejs? (what's the tutorial for nodejs?)</title>
+      <description>&lt;p&gt;&lt;a href="http://nodejs.org" title="http://nodejs.org" target="_blank"&gt;Node.js&lt;/a&gt; 是非常著名的服务器技术，但是入门的文章很少。官方站点的文档也无法让人看懂。更是一个API。看着满目的API，心想要是有个 &lt;a href="http://guide.rubyonrails.org/" title="http://guide.rubyonrails.org/" target="_blank"&gt;rails guide&lt;/a&gt; 类似的文档多好。 所以，我找到了这个答案: &lt;a href="http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js" title="http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js" target="_blank"&gt;如何入门nodejs&lt;/a&gt;.&amp;#160;&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://nodejs.org" title="http://nodejs.org" target="_blank"&gt;Node.js&lt;/a&gt; is one of the most popular framework nowadays, however there's no guide (like &lt;a href="http://guide.rubyonrails.org/" title="http://guide.rubyonrails.org/" target="_blank"&gt;guide.rubyonrails.com&lt;/a&gt;) on its official website, instead, the documents there are more like APIs. so I hope the resources below will be helpful. (see :&amp;#160;&lt;a href="http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js" title="http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js" target="_blank"&gt;http://stackoverflow.com/questions/2353818/how-do-i-get-started-with-node-js&lt;/a&gt; )&lt;/p&gt;
+
+&lt;div&gt;&lt;p&gt;&lt;strong&gt;Tutorials&amp;#160;&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://nodeguide.com/" rel="nofollow"&gt;Node.js guide&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://nodetuts.com/" rel="nofollow"&gt;Node tuts&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Videos&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.youtube.com/watch?v=jo_B4LTHi3I" rel="nofollow"&gt;Introduction to Node.js with Ryan Dahl&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.infoq.com/presentations/nodejs" rel="nofollow"&gt;Node.js: Asynchronous Purity Leads to Faster Development&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.infoq.com/presentations/Parallel-Programming-with-Nodejs" rel="nofollow"&gt;Parallel Programming with Node.js&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://vimeo.com/18077379" rel="nofollow"&gt;Server-side JavaScript with Node, Connect &amp;amp; Express&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.lynda.com/Nodejs-tutorials/Nodejs-First-Look/101554-2.html" rel="nofollow"&gt;Node.js First Look&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Screencasts&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://nodetuts.com/" rel="nofollow"&gt;NodeTuts&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://nodecasts.net/" rel="nofollow"&gt;NodeCasts&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Books&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://nodebeginner.org/" rel="nofollow"&gt;The Node Beginner Book&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://visionmedia.github.com/masteringnode/" rel="nofollow"&gt;Mastering Node.js&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://ofps.oreilly.com/titles/9781449398583/index.html" rel="nofollow"&gt;Up and Running with Node.js&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.manning.com/cantelon/" rel="nofollow"&gt;Node.js in Action&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Blogs&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://blog.nodejs.org/" rel="nofollow"&gt;Ryan Dahl's Node blog&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://howtonode.org/" rel="nofollow"&gt;How To Node&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://dailyjs.com/" rel="nofollow"&gt;DailyJS&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://blog.nodejitsu.com/" rel="nofollow"&gt;Nodejitsu blog&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Podcasts&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://nodeup.com/" rel="nofollow"&gt;NodeUp&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;JavaScript resources&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://yuiblog.com/crockford/" rel="nofollow"&gt;Crockford's videos&lt;/a&gt; (must see!)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/" rel="nofollow"&gt;Essential JavaScript Design Patterns For Beginners&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://bonsaiden.github.com/JavaScript-Garden/" rel="nofollow"&gt;JavaScript garden&lt;/a&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://oreilly.com/catalog/9780596806767" rel="nofollow"&gt;JavaScript Patterns&lt;/a&gt; book&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://oreilly.com/catalog/9780596517748/" rel="nofollow"&gt;JavaScript: The Good Parts&lt;/a&gt; book&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;strong&gt;Node Modules&lt;/strong&gt;
+&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://github.com/joyent/node/wiki/modules" rel="nofollow"&gt;Wiki List on Github/Joyent/Node&lt;/a&gt; (start here last!)&lt;/li&gt;
+&lt;li&gt;&lt;a href="http://search.npmjs.org/" rel="nofollow"&gt;Search for registered node.js modules&lt;/a&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;</description>
+      <pubDate>Sun, 19 Aug 2012 00:24:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/node-js-tutorial</link>
+    </item>
+    <item>
+      <title>递归函数练习题 (recursive function exams) </title>
+      <description>&lt;p&gt;递归函数非常重要。在解决很多实际问题中，在大学课程中，以及很多面试过程中，都要被用到。可以说是计算机的基础。自己之前做WEB开发，没有太重视，所以做一些补习 ^_^&amp;#160;&lt;/p&gt;
+&lt;p&gt;Recursive function is the basic and the most important of computer science, and it is widely used in solving real problems, college education (basic courses), and in the interviews for a programmer job. &amp;#160;so, let's have some exams for it. &amp;#160;&lt;/p&gt;
+&lt;h1&gt;1. factorial . &amp;#160;(阶乘）&lt;/h1&gt;
+&lt;p&gt;given n = 3. should get result = 3x2x1 = 6&lt;br /&gt;given n = 5, should get result = 5x4x3x2x1&amp;#160;&lt;/p&gt;
+&lt;p&gt;参考答案： (answer)&lt;/p&gt;
+&lt;pre&gt;def factorial n
+  return 1 if n == 1
+  return factorial(n-1) * n 
+end
+&lt;/pre&gt;
+&lt;h1&gt;2. fabonacci numbers: &amp;#160; (fabonacci 数列）&amp;#160; 0, 1, 1, 2, 3, 5, 8, 13 ......&lt;/h1&gt;
+&lt;p&gt;参考答案：(answer)&lt;/p&gt;
+&lt;pre&gt;# 0, 1, 1, 2, 3, 5, 8, 13
+def fabonacci n
+  return 0 if n == 0
+  return 1 if n == 1
+  return fabonacci(n-1) + fabonacci(n-2)
+end
+def get_array n
+  result = []
+  n.times.to_a.reverse.each { |i| result &amp;lt;&amp;lt; fabonacci(i) }
+  return result
+end
+puts "fabonacci 8: #{fabonacci(8).inspect}"    
+puts "fabonacci 8(array): #{get_array(8).inspect}"
+&lt;/pre&gt;
+&lt;p&gt;以上代码的输出：&lt;/p&gt;
+&lt;pre&gt;fabonacci 8: 21
+fabonacci 8(array): [13, 8, 5, 3, 2, 1, 1, 0]
+&lt;/pre&gt;
+&lt;p&gt;( 一个非常有趣的现象是： 越到后来， 两个相邻fabonacci的比值越接近黄金分割。例如： fab(19)/fab(20) =&amp;#160;0.618033985017358 &amp;#160; )&lt;/p&gt;
+&lt;p&gt;&lt;img src="/system/images/BAhbB1sHOgZmIjEyMDEyLzA4LzE3LzExXzA0XzA4XzcyOF9maWJvbmFjY2lfc3BpcmFsLmdpZlsIOgZwOgp0aHVtYiINNDUweDQ1MD4/fibonacci-spiral.gif" title="Fibonacci Spiral" alt="Fibonacci Spiral" rel="450x450" height="280" width="450" /&gt;&lt;/p&gt;
+&lt;h1&gt;3. 最大公约数（greatest common divisor) &amp;#160; &amp;#160;&lt;/h1&gt;
+&lt;p&gt;例如： 54 = 54 x 1 = 27 x 2 = 18 x 3 = 9 x 6 , &amp;#160; thus the divisors of 54 are: &amp;#160;[ 1,2,3,6,9,18,27,54]&lt;br /&gt;同样： 24 's divisors : [1,2,3,4,6,8,12,24]&lt;br /&gt;the common divisors : &amp;#160;[1,2,3,6]&amp;#160;&lt;br /&gt;so , the greatest common divisor : &amp;#160;gcd(54,24) = 6&lt;/p&gt;
+&lt;pre&gt;# need a &amp;gt; b
+def get_greatest_common_divisors_simplest(a, b)
+  return a if b == 0
+  get_greatest_common_divisors_simplest(b, a%b)
+end
+
+require 'test/unit'
+class DivisorsTest &amp;lt; Test::Unit::TestCase
+  def test_get_greatest_common_divisors_simplest
+    assert_equal 6, get_greatest_common_divisors_simplest(54, 24) 
+  end 
+end
+&lt;/pre&gt;
+&lt;h1&gt;4. Tower of Hanoi&amp;#160;&lt;/h1&gt;
+&lt;p&gt;&lt;img src="/system/images/BAhbB1sHOgZmIi8yMDEyLzA4LzE3LzE0XzA5XzUwXzU3NF90b3dlcl9vZl9oYW5vaS5naWZbCDoGcDoKdGh1bWIiDTQ1MHg0NTA+/tower_of_hanoi.gif" title="Tower Of Hanoi" alt="Tower Of Hanoi" rel="450x450" height="117" width="300" /&gt;&lt;/p&gt;
+&lt;p&gt;简单的说，就是计算把若干盘子从一个柱子保持原有顺序的转移到另一个柱子所需要的步骤。&lt;/p&gt;
+&lt;p&gt;given three pegs, one with a set of N disks of increasing size, determine the minimum (optimal) number of steps it takes to move all the disks from their initial position to another peg without placing a larger disk on top of a smaller one.&lt;/p&gt;
+&lt;pre&gt;# see: http://en.wikipedia.org/wiki/Towers_of_Hanoi
+def hanoi(n)
+  return 1 if n == 1
+  return 2 * hanoi( n -1) + 1 
+end
+
+require 'test/unit'
+class HanoiTest &amp;lt; Test::Unit::TestCase
+  def test_hanoi
+    assert_equal 15, hanoi(4)
+    assert_equal 8, hanoi(7)
+  end 
+end&lt;/pre&gt;
+&lt;h1&gt;5. （快速排序算法）Quick Sort &lt;/h1&gt;
+&lt;p&gt;&lt;img rel="450x450" alt="Sorting Quicksort Anim" title="Sorting Quicksort Anim" src="/system/images/BAhbB1sHOgZmIjcyMDEyLzA4LzI3LzE1XzExXzE0XzQzNl9Tb3J0aW5nX3F1aWNrc29ydF9hbmltLmdpZlsIOgZwOgp0aHVtYiINNDUweDQ1MD4/Sorting_quicksort_anim.gif" height="214" width="280" /&gt;&lt;/p&gt;
+&lt;p&gt;对一个数组进行排序，先选定一个 pivot （中间数），然后把低于这个中间数的数组元素放到less 数组中，高于它的，放在 greater数组中。 接下来，重复这个过程，对less和 greater进行迭代.  (sort an array using pivot, and patition.  It first divide a large list into 2 smaller lists: less and greater, then sort them recursively ) &lt;/p&gt;
+&lt;p&gt; 问题的核心在于： 1. 对数组进行分区 . 2. 递归重复排序的过程。3. 使用2个空的数组来保存排序结果。 ( the core of the problem is: 1. partition.  2 recursively sort. 3. declare blank arrays to store the sorted sub lits )&lt;/p&gt;
+&lt;pre&gt;ef quick_sort(array)
+  if array.size &amp;lt; 2
+    #puts "array size == 1: #{array.inspect}"
+    return array
+  end
+  # find the pivot
+  pivot, array  = parition(array)
+  # now let's sort...
+  less, greater  = [], []
+  # divide the array by pivot (partition)
+  array.each { |e| e &amp;lt;= pivot ? less &amp;lt;&amp;lt; e : greater &amp;lt;&amp;lt; e }
+  sorted_array = less + [pivot] + greater
+  #puts "after sort,: #{sorted_array.inspect}, less: #{less.inspect}, greater: #{greater.inspect}"
+  return quick_sort(less) + [pivot] + quick_sort(greater)
+end
+def parition(array)
+  #puts "find pivot from array: #{array.inspect}"
+  index = array.size / 2
+  pivot = array.delete_at(index)
+  #puts "index: #{index}, value: #{array[index]}, array: #{array.inspect}"
+
+  return [pivot, array]
+end
+
+# call it: &lt;br /&gt;quick_sort(Range.new(1, 1e4).to_a.shuffle)  # Finished in 0.20154 seconds&lt;br /&gt;quick_sort(Range.new(1, 1e5).to_a.shuffle)  # Finished in 2.58 seconds
+&lt;/pre&gt;</description>
+      <pubDate>Fri, 17 Aug 2012 02:17:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/recursive-functions</link>
+    </item>
+    <item>
+      <title>参加了ruby-beijing 7月的聚会( Joined Ruby Beijing Party on July)</title>
+      <description>&lt;p&gt;7月21号，下着大雨，我去晚了。 结果林生让我去说两句。。。只好跟大家聊聊工作，说说养生。呼呼。。。&lt;/p&gt;
+
+
+&lt;p&gt;傻乎乎的照片一张，自己最近实在太瘦了：&lt;/p&gt;
+&lt;p&gt;&lt;img rel="450x450" alt="Dsc 0091" title="Dsc 0091" src="/system/images/BAhbB1sHOgZmIikyMDEyLzA4LzEzLzA4XzQ4XzI1XzM4Ml9EU0NfMDA5MS5KUEdbCDoGcDoKdGh1bWIiDTQ1MHg0NTA+/DSC_0091.JPG" height="450" width="299" /&gt;&lt;/p&gt;
+&lt;p&gt;来个合影：&lt;/p&gt;
+&lt;p&gt;&lt;a target="_blank" href="http://ww4.sinaimg.cn/large/a403844dgw1dvg95jsqm0j.jpg"&gt;&lt;img rel="450x450" alt="A403844dgw1dvg95jsqm0j" title="A403844dgw1dvg95jsqm0j" src="/system/images/BAhbB1sHOgZmIjcyMDEyLzA4LzEzLzA4XzQzXzQwXzkzOV9hNDAzODQ0ZGd3MWR2Zzk1anNxbTBqLmpwZ1sIOgZwOgp0aHVtYiINNDUweDQ1MD4/a403844dgw1dvg95jsqm0j.jpg" height="299" width="450" /&gt;&lt;/a&gt;
+&lt;/p&gt;</description>
+      <pubDate>Mon, 13 Aug 2012 00:42:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/ruby-beijing-party-july-07</link>
+    </item>
+    <item>
+      <title>gmail 中的快捷键. ( shortcuts of Gmail)</title>
+      <description>&lt;p&gt;在这里：&lt;a href="http://support.google.com/mail/bin/answer.py?hl=en&amp;amp;answer=6594" title="http://support.google.com/mail/bin/answer.py?hl=en&amp;amp;answer=6594" target="_blank"&gt;http://support.google.com/mail/bin/answer.py?hl=en&amp;amp;answer=6594&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;一定要用快捷键，不管是编程，打游戏（WAR3， DOTA） ， 还是使用GMAIL。 大幅提高手术和效率。。。&amp;#160;&lt;/p&gt;</description>
+      <pubDate>Sun, 12 Aug 2012 22:48:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/shortcuts-of-gmail</link>
+    </item>
+    <item>
+      <title>delayed_job 需要注意的几个地方( advanced usage of delayed_job ) </title>
+      <description>&lt;p&gt;delayed_job是非常强大的工具。但是，它也有它适应的场合。用的好的话，非常给力。用的不好的话，就麻烦了。&lt;/p&gt;
+&lt;p&gt;适合的场合： &lt;br /&gt;1. 有很多任务需要处理，这些任务可以延迟一段时间完成，例如：发送1W个EMAIL。 更新10W个设备的信息。等。&lt;br /&gt;2. 各个任务之间没有复杂的联系，哪个先来，哪个后来，没有固定的需求。&lt;br /&gt;3. （最好不要出现这个情况）有的话也可以，但是一定要简单！ 例如： 100个任务中，前50个优先级高，先执行。&amp;#160;&lt;/p&gt;
+&lt;p&gt;不适合的场合：&lt;br /&gt;1. 有严格的优先级（有复杂的先后顺序）&lt;/p&gt;
+&lt;p&gt;这几天在项目中有非常深刻的体会：&lt;/p&gt;
+&lt;p&gt;1. delayed_job 属于并发执行，所以冒出来很多意想不到的问题。&lt;/p&gt;
+&lt;p&gt;2. delayed_job 使用了独立于rails的脚本执行（script/delayed_job start) 所以无法使用单元测试。&amp;#160; 难于测试，就难于开发。&lt;/p&gt;
+&lt;p&gt;3. 不是按照我想象的严格遵守优先级。 例如：&amp;#160; 10 个worker,&amp;#160; 遇到5个任务： &lt;br /&gt;&lt;br /&gt;job1:  priority = 0&lt;br /&gt;job2:  priority = 0&lt;br /&gt;job3:  priority = 10&lt;br /&gt;job4:  priority = 20&lt;br /&gt;job5:  priority = 30&lt;br /&gt;&lt;br /&gt;尽管它们的优先级不同，但是，由于有 10 个worker在待命，所以， 这5个job会被同时执行。T.T&lt;/p&gt;
+&lt;p&gt;4. 要解决这个问题，我使用了 wait_job.rb 但是效果极差。大家不要参考了。
+&lt;/p&gt;
+&lt;pre&gt;  1 # a job just for waiting the preconditional jobs (higher priority jobs) done
+  2 class WaitUntilPreconditionalsDoneJob &amp;lt; Struct.new(:priority)
+  3   include DelayedJobPriority
+  4   def perform
+  5     wait_until_higher_priority_jobs_done(priority)
+  6   end
+  7 end
+&lt;/pre&gt;
+&lt;p&gt;接上文，要解决这个问题，只能使用 before/after hooks. 例如：
+&lt;/p&gt;
+&lt;pre&gt;  1 # usage:
+  2 # Delayed::Job.enqueue(UpdateRemoteConflictingDeviceInfoJob.new(), 10)
+  3 class UpdateRemoteConflictingDeviceInfoJob &amp;lt; Struct.new(:device_group, :cloudset)
+  4   def before(job)
+  5     Rails.logger.info '=== before UpdateRemoteConflictingDeviceInfoJob'
+  6   end 
+  7   def perform
+  8     device_group.update_the_remote_conflicting_devices(cloudset)
+  9   end
+ 10     
+ 11   def after(job)
+ 12     Rails.logger.info '=== in after hook, now starts UpdateLocalEmailsByRemoteValueJob'
+ 13     Delayed::Job.enqueue(UpdateLocalEmailsByRemoteValueJob.new(device_group), :priority =&amp;gt; 20)
+ 14   end   
+&lt;/pre&gt;
+</description>
+      <pubDate>Sun, 12 Aug 2012 22:43:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/something-about-delayed-job</link>
+    </item>
+    <item>
+      <title>演讲：meta-programming ruby </title>
+      <description>&lt;p&gt;8月11日参加了 &lt;a href="http://ruby-china.org/topics/4662" title="http://ruby-china.org/topics/4662" target="_blank"&gt;ruby-china.org 组织的 RUBY 聚会&lt;/a&gt;，地点在盛大创新院。&lt;/p&gt;
+&lt;p&gt;我做了 meta programming ruby 的演讲。大概的讲述了 ruby中的 model diagram, self, 等一些概念，以及一些meta programming 的基本方法。&lt;/p&gt;
+&lt;p&gt;&lt;a href="/system/resources/BAhbBlsHOgZmIjYyMDEyLzA4LzExLzEwXzIyXzIzXzQ4N19tZXRhX3Byb2dyYW1taW5nX3J1YnkucHB0/meta_programming_ruby.ppt" title="Meta Programming Ruby"&gt;PPT 在这里&lt;/a&gt;。 &amp;#160; 或者其他格式： &amp;#160;&amp;#160;&lt;a href="/system/resources/BAhbBlsHOgZmIjYyMDEyLzA4LzExLzEwXzIyXzEyXzE0MV9tZXRhX3Byb2dyYW1taW5nX3J1Ynkub2Rw/meta_programming_ruby.odp" title="Meta Programming Ruby"&gt;ODP&lt;/a&gt;， &amp;#160;&lt;a href="/system/resources/BAhbBlsHOgZmIjYyMDEyLzA4LzExLzEwXzIxXzM0XzgzN19tZXRhX3Byb2dyYW1taW5nX3J1YnkucGRm/meta_programming_ruby.pdf" title="Meta Programming Ruby"&gt;PDF&lt;/a&gt;
+&lt;/p&gt;
+&lt;img src="/system/images/BAhbB1sHOgZmIjQyMDEyLzA4LzE3LzEwXzE0XzEzXzcxOF9zaXdlaV9zcGVha2luZ19tZXRhLnBuZ1sIOgZwOgp0aHVtYiINNDUweDQ1MD4/siwei_speaking_meta.png" title="Siwei Speaking Meta" alt="Siwei Speaking Meta" rel="450x450" width="373" height="368" /&gt;
+&lt;p&gt;&lt;a href="/system/resources/BAhbBlsHOgZmIjYyMDEyLzA4LzExLzEwXzIyXzIzXzQ4N19tZXRhX3Byb2dyYW1taW5nX3J1YnkucHB0/meta_programming_ruby.ppt" title="Meta Programming Ruby"&gt;&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;这里是&lt;a href="/system/resources/BAhbBlsHOgZmIkEyMDEyLzA4LzE1LzA2XzU3XzIyXzE0Nl8xXzIwMTIwODExX21ldGFfcnVieV9wcm9ncmFtbWluZy5tcDM/1-20120811-meta%20ruby%20programming.mp3" title="1 20120811 Meta Ruby Programming"&gt;当时的MP3 录音。 (48'50'')&lt;/a&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href="https://github.com/sg552/meta_ruby"&gt; 这里还有可以运行的代码例子。&lt;/a&gt;(github)&lt;/p&gt;
+&lt;p&gt;&lt;a title="Spells" href="/system/resources/BAhbBlsHOgZmIicyMDEyLzA4LzEwLzE0XzEzXzU3XzUzMF9zcGVsbHMucGRm/spells.pdf"&gt;这里是一个包含了所有&amp;#160; spell的 PDF&lt;/a&gt;&amp;#160;.&amp;#160;&lt;/p&gt;
+</description>
+      <pubDate>Sat, 11 Aug 2012 23:48:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/meta-programming-ruby</link>
+    </item>
+    <item>
+      <title>barcamp演讲：ruby 中的单元测试(something about unit tests in Ruby)</title>
+      <description>&lt;p&gt;8月5号，我参加了 &lt;a href="http://www.barcamp-beijing.com/barcamp-beijing-august-2012/" title="http://www.barcamp-beijing.com/barcamp-beijing-august-2012/" target="_blank"&gt;barcamp &lt;/a&gt;活动， 进行了 ruby中的单元测试这个演讲。讲述一些单元测试的基本方法，rpsec 中的 mock , stub , 某些大型系统中的测试框架和技巧。最后的提问环节很有意思，很多朋友都提出了关于创业啊，或者寻找程序员好手的想法，&lt;a href="http://ruby-china.org" title="http://ruby-china.org" target="_blank"&gt;ruby-china&lt;/a&gt; 的石川(shichuan)、文洋、林生以及好几位朋友也到了场。&amp;#160;&lt;/p&gt;
+&lt;p&gt;&lt;a title="Unit Tests In Ruby" href="/system/resources/BAhbBlsHOgZmIjMyMDEyLzA4LzEwLzEzXzU5XzEzXzE1Nl91bml0X3Rlc3RzX2luX3J1Ynkub2Rw/unit_tests_in_ruby.odp"&gt;PPT在这里&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;单元测试中的几个术语：&amp;#160;&lt;/p&gt;
+&lt;p&gt;double:  the generic term for any kind of pretend object used in place of areal object for testing purpose. 是一种通用的称呼，来指： 所有用于替换真实对象的组建。 &lt;/p&gt;
+&lt;p&gt;Dummy: 空对象，啥都不做。仅仅用于某些parameter的占位（ fill parameter lists) &lt;/p&gt;
+&lt;p&gt;Fake : 能用，但是不适合生产环境，例如：  in memory database. &lt;/p&gt;
+&lt;p&gt;Stubs:  对某个方法的模拟调用，它返回的值是被我们预先设定的。 &lt;/p&gt;
+&lt;p&gt;Mocks:  某个模拟用的对象，替换真实存在的对象。 &lt;/p&gt;
+&lt;p&gt;大家的合影(我妈妈也在里面哈哈）：&lt;/p&gt;
+&lt;p&gt;&lt;a href="http://www.barcamp-beijing.com/wp-content/uploads/2012/08/00-Group-Shot.jpg"&gt;&lt;img src="/system/images/BAhbB1sHOgZmIjQyMDEyLzA4LzEzLzA2XzM5XzEwXzI2N19iYXJfY2FtcF9ncm91cF9zaG93LmpwZ1sIOgZwOgp0aHVtYiINNDUweDQ1MD4/bar_camp_group_show.jpg" title="Bar Camp Group Show" alt="Bar Camp Group Show" rel="450x450" width="450" height="304" /&gt;&lt;/a&gt;
+&lt;/p&gt;
+
+</description>
+      <pubDate>Sun, 05 Aug 2012 20:30:00 +0000</pubDate>
+      <link>http://192.168.1.35/blog/posts/unit-tests-in-ruby</link>
+    </item>
+  </channel>
+</rss>

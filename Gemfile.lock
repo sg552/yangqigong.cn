@@ -190,7 +190,7 @@ PLATFORMS
 
 DEPENDENCIES
   coffee-rails (~> 3.2.1)
-  jquery-rails
+  jquery-rails (~> 2.0.0)
   json
   mysql2
   rails (= 3.2.7)
