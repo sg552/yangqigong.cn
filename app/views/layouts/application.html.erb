@@ -3,8 +3,22 @@
   <% site_bar = render('/refinery/site_bar', :head => true) -%>
   <%= render '/refinery/head' %>
   <!--[if lt IE 8]>
-  <%= stylesheet_link_tag "blueprint/ie.css", :media => "screen, projection" %>
+  <%# stylesheet_link_tag "blueprint/ie.css", :media => "screen, projection" %>
+
   <![endif]-->
+  <style>
+  html{
+      background: url('<%= asset_path "green_keyboard.jpg" %>') no-repeat center center;
+      /* Ensure the html element always takes up the full height of the browser window */
+      min-height:100%;
+      /* The Magic */
+      background-size:cover;
+  }
+  body{
+      /* Workaround for some mobile browsers */
+      min-height:100%;
+  }
+  </style>
   <body>
     <%= site_bar -%>
     <%= render '/refinery/ie6check' if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
