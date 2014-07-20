@@ -2,13 +2,9 @@
 <%= render '/refinery/html_tag' %>
   <% site_bar = render('/refinery/site_bar', :head => true) -%>
   <%= render '/refinery/head' %>
-  <!--[if lt IE 8]>
-  <%# stylesheet_link_tag "blueprint/ie.css", :media => "screen, projection" %>
-
-  <![endif]-->
   <style>
   html{
-      background: url('<%= asset_path "green_keyboard.jpg" %>') no-repeat center center;
+      /* background: url('<%= asset_path "green_keyboard.jpg" %>') no-repeat center center; */
       /* Ensure the html element always takes up the full height of the browser window */
       min-height:100%;
       /* The Magic */
@@ -23,15 +19,27 @@
     <%= site_bar -%>
     <%= render '/refinery/ie6check' if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
     <div id="page_container">
+
       <header id="header">
-        <%= render '/refinery/header' -%>
+        <nav class="art-nav clearfix" style='position:relative'>
+        <div class="art-nav-inner">
+          <ul class="art-hmenu">
+            <% Refinery::Page.where('show_in_menu = 1').each do |page| %>
+              <li><%= link_to(page.title, refinery.url_for(page.url)) -%></li>
+            <% end %>
+          </ul>
+        </div>
+        </nav>
       </header>
-      <section id="page">
+      <section id="page" class='art-postcontent'>
         <%= yield %>
       </section>
-      <footer>
-        <%= render '/refinery/footer' -%>
-      </footer>
+      <footer class="art-footer clearfix">
+      <div class="art-footer-inner">
+        <div style="position:relative;display:inline-block;padding-left:35px;padding-right:35px">
+         <p>Copyright © 2014. 申思维的个人站点/ Siwei's Site.</p><br></div>
+       </div>
+       </footer>
     </div>
     <%= render '/refinery/javascripts' %>
   </body>

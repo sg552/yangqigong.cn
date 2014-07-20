@@ -9,10 +9,8 @@
   <%= yield :meta %>
 
   <%= stylesheet_link_tag "application", "formatting", "theme" %>
+  <%= stylesheet_link_tag "style.css" %>
   <%= stylesheet_link_tag "home" if home_page? %>
   <%= yield :stylesheets %>
-
-  <%# render '/refinery/google_analytics' %>
-
   <%= javascript_include_tag 'modernizr-min' %>
 </head>
