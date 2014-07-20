@@ -1,8 +1,40 @@
+<style>
+.pagination {
+  font-size: 18px;
+  padding: 5px 5px 4px 5px;
+  margin: 10px 0px;
+}
+.pagination em {
+  font-weight: bold;
+  font-style: normal;
+  padding: 0px 6px;
+}
+
+.pagination .current {
+  color: white;
+}
+
+.pagination .disabled {
+  color: #DDEE3F;
+}
+
+.pagination a, #content .pagination a, .pagination .current, .disabled, .pagination em {
+  padding: 7px;
+  line-height: 20px;
+  border-bottom: 0px none;
+}
+
+.pagination .current, .pagination a:hover, .pagination em {
+  background: #DDEE3F;
+}
+</style>
 <% content_for :body_content_title, @category.title %>
 
 <% content_for :body_content_left do %>
   <% if @posts.any? %>
     <section id="blog_posts">
+      <%= will_paginate @posts %>
+      <%= render :partial => "/refinery/blog/shared/post", :collection => @posts %>
       <%= render :partial => "/refinery/blog/shared/post", :collection => @posts %>
       <%= will_paginate @posts %>
     </section>
