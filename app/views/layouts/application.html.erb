@@ -4,10 +4,7 @@
   <%= render '/refinery/head' %>
   <style>
   html{
-      /* background: url('<%= asset_path "green_keyboard.jpg" %>') no-repeat center center; */
-      /* Ensure the html element always takes up the full height of the browser window */
       min-height:100%;
-      /* The Magic */
       background-size:cover;
   }
   body{
@@ -20,8 +17,9 @@
     <%= render '/refinery/ie6check' if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
     <div id="page_container">
 
-      <header id="header">
-        <nav class="art-nav clearfix" style='position:relative'>
+      <header id="header" class='art-header clearfix'>
+      <%= image_tag asset_path("template/header.png"), :style=> 'width: 100%' %>
+        <nav class="art-nav clearfix desktop-nav " style='position:relative'>
         <div class="art-nav-inner">
           <ul class="art-hmenu">
             <% Refinery::Page.where('show_in_menu = 1').each do |page| %>
@@ -31,7 +29,7 @@
         </div>
         </nav>
       </header>
-      <section id="page" class='art-postcontent'>
+      <section id="page" class='art-postcontent' style='clear: both; margin-top: 20px'>
         <%= yield %>
       </section>
       <footer class="art-footer clearfix">

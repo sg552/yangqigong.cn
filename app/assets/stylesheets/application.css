@@ -1,6 +1,8 @@
 /*
  *
  *= require_self
+ *= require style
+ *= require style.responsive
  *= require customize.css
  */
 
