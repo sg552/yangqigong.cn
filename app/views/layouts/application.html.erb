@@ -22,8 +22,10 @@
         <nav class="art-nav clearfix desktop-nav " style='position:relative'>
         <div class="art-nav-inner">
           <ul class="art-hmenu">
-            <% Refinery::Page.where('show_in_menu = 1').each do |page| %>
-              <li><%= link_to(page.title, refinery.url_for(page.url)) -%></li>
+            <% Refinery::Page.where('show_in_menu = 1').each do |page|
+              page_url = refinery.url_for(page.url)
+              css_class = page_url.match(/blog/) ?  '' : '' %>
+              <li><%= link_to page.title, page_url, :class => css_class -%></li>
             <% end %>
           </ul>
         </div>

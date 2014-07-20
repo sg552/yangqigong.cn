@@ -35,7 +35,6 @@
     <section id="blog_posts">
       <%= will_paginate @posts %>
       <%= render :partial => "/refinery/blog/shared/post", :collection => @posts %>
-      <%= render :partial => "/refinery/blog/shared/post", :collection => @posts %>
       <%= will_paginate @posts %>
     </section>
   <% else %>
