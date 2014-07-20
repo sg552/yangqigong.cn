@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This migration comes from refinery_blog (originally 20120227022021)
 class AddSlugToPostsAndCategories < ActiveRecord::Migration
   def change

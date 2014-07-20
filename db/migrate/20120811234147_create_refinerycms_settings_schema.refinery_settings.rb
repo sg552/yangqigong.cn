@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This migration comes from refinery_settings (originally 20100913234710)
 class CreateRefinerycmsSettingsSchema < ActiveRecord::Migration
   def change

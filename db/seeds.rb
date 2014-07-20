@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 if Refinery::Page.where(:menu_match => "^/$").empty?
   home_page = Refinery::Page.create!({:title => "Home",
               :deletable => false,

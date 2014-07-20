@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 if Capybara.javascript_driver == :selenium
   require 'selenium-webdriver'
   require 'selenium/webdriver/firefox'

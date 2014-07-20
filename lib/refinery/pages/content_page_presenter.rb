@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Refinery
   module Pages
     # A type of ContentPresenter which specifically knows how to render the html

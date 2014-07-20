@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class Create<%= class_name.pluralize %> < ActiveRecord::Migration
 
   def self.up

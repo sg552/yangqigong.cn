@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Refinery::Core::Engine.routes.append do
 <% unless skip_frontend? %>
   # Frontend routes

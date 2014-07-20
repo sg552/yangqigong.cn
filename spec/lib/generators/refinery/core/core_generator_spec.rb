@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec_helper'
 require 'generator_spec/test_case'
 require 'generators/refinery/core/core_generator'

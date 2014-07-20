@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Refinery
   module Pages
     class Types < Array

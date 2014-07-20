@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Refinery
   class <%= extension_plural_class_name %>Generator < Rails::Generators::Base
 

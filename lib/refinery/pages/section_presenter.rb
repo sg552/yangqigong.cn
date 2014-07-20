@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Refinery
   module Pages
     # Knows how to build the html for a section. A section is part of the visible html, that has

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 class CreateRefinerycmsPagesSchema < ActiveRecord::Migration
   def up
     create_table :refinery_page_parts do |t|

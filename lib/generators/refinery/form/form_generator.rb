@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'refinery/extension_generation'
 require 'rails/generators/migration'
 

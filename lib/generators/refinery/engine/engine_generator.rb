@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rails/generators/named_base'
 require 'refinery/extension_generation'
 

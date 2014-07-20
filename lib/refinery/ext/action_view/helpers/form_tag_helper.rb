@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 ActionView::Helpers::FormTagHelper.module_eval do
 
   def required_label_tag(name, text = nil, options = {})

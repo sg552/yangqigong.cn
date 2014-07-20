@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Encoding: utf-8
 require 'acts_as_indexed'
 require 'friendly_id'

@@ -1,4 +1,4 @@
-# encoding: utf-8
+# -*- encoding : utf-8 -*-
 require "spec_helper"
 
 def new_window_should_have_content(content)

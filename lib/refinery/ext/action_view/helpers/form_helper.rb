@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 ActionView::Helpers::FormHelper.module_eval do
 
   def required_label(object_name, method, options = {})

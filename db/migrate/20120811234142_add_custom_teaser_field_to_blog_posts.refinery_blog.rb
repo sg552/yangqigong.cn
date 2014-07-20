@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This migration comes from refinery_blog (originally 20110803223528)
 class AddCustomTeaserFieldToBlogPosts < ActiveRecord::Migration
   def change

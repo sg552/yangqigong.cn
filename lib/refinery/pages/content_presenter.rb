@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Refinery
   module Pages
     # Knows how to render a set of sections as html. This can be used in any

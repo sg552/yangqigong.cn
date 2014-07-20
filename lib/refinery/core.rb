@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'rails/all'
 require 'rbconfig'
 require 'truncate_html'

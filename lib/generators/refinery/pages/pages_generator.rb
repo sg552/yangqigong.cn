@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Refinery
   class PagesGenerator < Rails::Generators::Base
     source_root File.expand_path('../templates', __FILE__)

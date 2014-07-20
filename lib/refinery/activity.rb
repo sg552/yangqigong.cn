@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Refinery
   class Activity
     attr_accessor :conditions

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Refinery
   module Pages
     # A type of SectionPresenter which knows how to render a section which displays

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Refinery
   class PagesController < ::ApplicationController
     before_filter :find_page, :set_canonical, :except => [:preview]

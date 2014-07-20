@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Refinery
   module <%= class_name.pluralize %>
     class <%= class_name.pluralize %>Controller < ::ApplicationController

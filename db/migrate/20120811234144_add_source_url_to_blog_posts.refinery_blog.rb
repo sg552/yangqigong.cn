@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This migration comes from refinery_blog (originally 20120103055909)
 class AddSourceUrlToBlogPosts < ActiveRecord::Migration
   def change

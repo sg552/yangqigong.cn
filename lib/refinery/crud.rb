@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Base methods for CRUD actions
 # Simply override any methods in your action controller you want to be customised
 # Don't forget to add:

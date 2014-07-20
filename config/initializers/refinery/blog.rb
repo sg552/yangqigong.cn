@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Refinery::Blog.configure do |config|
   # config.validate_source_url = false
 

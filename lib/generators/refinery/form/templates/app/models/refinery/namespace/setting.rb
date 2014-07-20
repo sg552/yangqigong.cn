@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Refinery
   module <%= namespacing %>
     class Setting < Refinery::Core::BaseModel
