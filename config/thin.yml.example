@@ -1,8 +1,8 @@
 ---
-chdir: /home/siwei/personal_site
+chdir: /opt/app/folder
 environment: production
 address: 0.0.0.0
-port: 3501
+port: 3883
 timeout: 30
 #log: /log/thin.log
 #pid: /var/www/discourse/shared/pids/thin.pid
