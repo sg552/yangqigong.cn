@@ -20,7 +20,6 @@ config/database.yml
 config/settings.yml
 REVISION
 log
-./*.sql
 clean_empty_helper.rb
 *.log
 public/assets
