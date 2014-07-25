@@ -11,10 +11,11 @@ This is source code for siwei.me, based on Refinery CMS. (http://refinerycms.com
 5. $ bundle exec rake db:create RAILS_ENV=production
 6. $ (in your mysql) source db/initial_data.sql
 7. $ bundle exec thin start -p 3888 -e production -d (or  -C config/thin.yml)
+8. edit config/initializers/blog.rb, core.rb to modify the site titles
 
 then visit http://localhost:3888/refinery to login,
 
-default user: start
+default user: admin
 
 default password: 123456
 

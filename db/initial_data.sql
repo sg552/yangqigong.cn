@@ -127,7 +127,7 @@ CREATE TABLE `refinery_blog_posts` (
   KEY `index_refinery_blog_posts_on_id` (`id`),
   KEY `index_refinery_blog_posts_on_access_count` (`access_count`),
   KEY `index_refinery_blog_posts_on_slug` (`slug`)
-) ENGINE=InnoDB AUTO_INCREMENT=306 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=307 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -136,6 +136,7 @@ CREATE TABLE `refinery_blog_posts` (
 
 LOCK TABLES `refinery_blog_posts` WRITE;
 /*!40000 ALTER TABLE `refinery_blog_posts` DISABLE KEYS */;
+INSERT INTO `refinery_blog_posts` VALUES (306,'23232323232','<p>3232</p>',0,'2014-07-25 09:39:00','2014-07-25 09:39:10','2014-07-25 09:39:10',1,NULL,'','','','',1,'23232323232');
 /*!40000 ALTER TABLE `refinery_blog_posts` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -382,7 +383,7 @@ CREATE TABLE `refinery_roles_users` (
 
 LOCK TABLES `refinery_roles_users` WRITE;
 /*!40000 ALTER TABLE `refinery_roles_users` DISABLE KEYS */;
-INSERT INTO `refinery_roles_users` VALUES (1,1),(2,1),(1,2);
+INSERT INTO `refinery_roles_users` VALUES (1,1),(1,2);
 /*!40000 ALTER TABLE `refinery_roles_users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -433,7 +434,7 @@ CREATE TABLE `refinery_user_plugins` (
   PRIMARY KEY (`id`),
   UNIQUE KEY `index_refinery_user_plugins_on_user_id_and_name` (`user_id`,`name`),
   KEY `index_refinery_user_plugins_on_name` (`name`)
-) ENGINE=InnoDB AUTO_INCREMENT=24 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=31 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -442,7 +443,7 @@ CREATE TABLE `refinery_user_plugins` (
 
 LOCK TABLES `refinery_user_plugins` WRITE;
 /*!40000 ALTER TABLE `refinery_user_plugins` DISABLE KEYS */;
-INSERT INTO `refinery_user_plugins` VALUES (7,1,'refinery_users',0),(8,1,'refinery_dashboard',1),(9,1,'refinery_images',2),(10,1,'refinery_files',3),(11,1,'refinery_pages',4),(12,1,'refinerycms_blog',5),(13,1,'refinery_core',6),(14,1,'refinery_dialogs',7),(15,1,'refinery_i18n',8),(16,1,'refinery_settings',9),(17,2,'refinerycms_blog',0),(18,2,'refinery_dashboard',1),(19,2,'refinery_files',2),(20,2,'refinery_images',3),(21,2,'refinery_pages',4),(22,2,'refinery_settings',5),(23,2,'refinery_users',6);
+INSERT INTO `refinery_user_plugins` VALUES (24,1,'refinerycms_blog',0),(25,1,'refinery_dashboard',1),(26,1,'refinery_files',2),(27,1,'refinery_images',3),(28,1,'refinery_pages',4),(29,1,'refinery_settings',5),(30,1,'refinery_users',6);
 /*!40000 ALTER TABLE `refinery_user_plugins` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -479,7 +480,7 @@ CREATE TABLE `refinery_users` (
 
 LOCK TABLES `refinery_users` WRITE;
 /*!40000 ALTER TABLE `refinery_users` DISABLE KEYS */;
-INSERT INTO `refinery_users` VALUES (1,'sg552','sg552sg552@gmail.com','$2a$10$y1B20AudrygwQl3fnM9A3Oq5xtxTpjbYP9bkzwya97O2WoWJySrjq','2014-07-24 06:31:04','2014-07-23 17:15:35','218.30.180.179','218.30.180.177',215,'2014-07-23 17:15:35',NULL,NULL,'2012-08-04 06:51:38','2014-07-24 06:31:04'),(2,'star','star@qq.com','$2a$10$lg80bQACl1dTNtBjcPzTy.r8v7tJi1e5xEEZKMj/Ubr9CVIDo/zk2',NULL,NULL,NULL,NULL,NULL,NULL,NULL,NULL,'2014-07-24 06:51:16','2014-07-24 06:51:16');
+INSERT INTO `refinery_users` VALUES (1,'admin','sg552sg552@gmail.com','$2a$10$uhRsbOKsMPY7xPj/AyIf/.8bLzOTHe2lL659ZJHz.CoTdjkseLFse','2014-07-25 09:39:52','2014-07-25 09:38:55','218.30.180.179','218.30.180.179',217,'2014-07-23 17:15:35',NULL,NULL,'2012-08-04 06:51:38','2014-07-25 09:39:52');
 /*!40000 ALTER TABLE `refinery_users` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -525,7 +526,7 @@ CREATE TABLE `seo_meta` (
   PRIMARY KEY (`id`),
   KEY `index_seo_meta_on_id` (`id`),
   KEY `index_seo_meta_on_seo_meta_id_and_seo_meta_type` (`seo_meta_id`,`seo_meta_type`)
-) ENGINE=InnoDB AUTO_INCREMENT=327 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=328 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -534,7 +535,7 @@ CREATE TABLE `seo_meta` (
 
 LOCK TABLES `seo_meta` WRITE;
 /*!40000 ALTER TABLE `seo_meta` DISABLE KEYS */;
-INSERT INTO `seo_meta` VALUES (323,1,'Refinery::Page::Translation','','','','2014-07-24 06:47:51','2014-07-24 06:47:51'),(324,2,'Refinery::Page::Translation','','','','2014-07-24 06:48:25','2014-07-24 06:48:25'),(325,12,'Refinery::Page::Translation','','','','2014-07-24 06:48:58','2014-07-24 06:48:58');
+INSERT INTO `seo_meta` VALUES (323,1,'Refinery::Page::Translation','','','','2014-07-24 06:47:51','2014-07-24 06:47:51'),(324,2,'Refinery::Page::Translation','','','','2014-07-24 06:48:25','2014-07-24 06:48:25'),(325,12,'Refinery::Page::Translation','','','','2014-07-24 06:48:58','2014-07-24 06:48:58'),(327,306,'Refinery::Blog::Post','','','','2014-07-25 09:39:10','2014-07-25 09:39:10');
 /*!40000 ALTER TABLE `seo_meta` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -601,4 +602,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2014-07-24 14:52:11
+-- Dump completed on 2014-07-25 17:40:42
