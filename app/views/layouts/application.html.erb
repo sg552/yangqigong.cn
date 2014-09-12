@@ -19,7 +19,8 @@
     <div id="page_container">
 
       <header id="header" class='art-header clearfix'>
-      <%= image_tag asset_path("template/header.png"), :style=> 'width: 100%' %>
+        <%= image_tag asset_path("yangqigong/header.png"), :style=> 'width: 100%' %>
+        <%= image_tag asset_path("yangqigong/menus.png"), :style=> 'width: 100%' %>
         <nav class="art-nav clearfix desktop-nav " style='position:relative'>
         <div class="art-nav-inner">
           <ul class="art-hmenu">
@@ -32,13 +33,15 @@
         </div>
         </nav>
       </header>
-      <section id="page" class='art-postcontent' style='clear: both; margin-top: 20px'>
+      <section id="page" style='clear: both; margin-top: 20px'>
         <%= yield %>
       </section>
-      <footer class="art-footer clearfix">
-      <div class="art-footer-inner">
-        <div style="position:relative;display:inline-block;padding-left:35px;padding-right:35px">
-         <p>Copyright © 2014. 申思维的个人站点/ Siwei's Site.</p><br></div>
+      <footer class="clearfix">
+        <%= image_tag asset_path("yangqigong/footer.png"), :style=> 'width: 100%' %>
+        <div class="art-footer-inner">
+        <div style="margin: 0 auto; width: 300px">
+          Copyright © 2014. 马礼堂养气功官方站点
+        </div>
        </div>
        </footer>
     </div>
