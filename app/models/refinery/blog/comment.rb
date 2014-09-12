@@ -7,7 +7,8 @@ module Refinery
 
       filters_spam :author_field => :name,
                    :email_field => :email,
-                   :message_field => :body
+                   :message_field => :body,
+                   :extra_spam_words => ['http://', 'href=']
 
       belongs_to :post, :foreign_key => 'blog_post_id'
 

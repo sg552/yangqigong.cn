@@ -24,7 +24,7 @@ module Refinery
         @comment = Comment.new
 
         @canonical = url_for(:locale => ::Refinery::I18n.default_frontend_locale) if canonical?
-        
+
         @post.increment!(:access_count, 1)
 
         respond_with (@post) do |format|
@@ -35,13 +35,14 @@ module Refinery
 
       def comment
         if (@comment = @post.comments.create(params[:comment])).valid?
-          if Comment::Moderation.enabled? or @comment.ham?
-            begin
-              CommentMailer.notification(@comment, request).deliver
-            rescue
-              logger.warn "There was an error delivering a blog comment notification.\n#{$!}\n"
-            end
-          end
+          # don't allow comment
+          #if Comment::Moderation.enabled? or @comment.ham?
+          #  begin
+          #    CommentMailer.notification(@comment, request).deliver
+          #  rescue
+          #    logger.warn "There was an error delivering a blog comment notification.\n#{$!}\n"
+          #  end
+          #end
 
           if Comment::Moderation.enabled?
             flash[:notice] = t('thank_you_moderated', :scope => 'refinery.blog.posts.comments')

@@ -37,4 +37,17 @@
       <%= f.submit t('submit', :scope => 'refinery.blog.posts.show') %>
     </div>
   <% end %>
+  <script >
+    $.validator.addMethod("should_not_include_spam_key_words", function(value){
+      return value.indexOf('http:') > -1  || value.indexOf('a href') > -1
+    }, 'no http nor href allowed, bye spot~ ')
+    $(document).ready(function(){
+      $('#new_comment').validate({
+        rules: {
+          content_message: "should_not_include_spam_key_words",
+          required: true
+        }
+      })
+    })
+  </script>
 </aside>
