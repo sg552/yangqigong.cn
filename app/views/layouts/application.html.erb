@@ -18,20 +18,23 @@
     <%= render '/refinery/ie6check' if request.env['HTTP_USER_AGENT'] =~ /MSIE/ -%>
     <div id="page_container">
 
-      <header id="header" class='art-header clearfix'>
+      <header id="header" class='clearfix'>
         <%= image_tag asset_path("yangqigong/header.png"), :style=> 'width: 100%' %>
         <%= image_tag asset_path("yangqigong/menus.png"), :style=> 'width: 100%' %>
-        <nav class="art-nav clearfix desktop-nav " style='position:relative'>
-        <div class="art-nav-inner">
-          <ul class="art-hmenu">
+        <div class="" style='position:relative;background-color: #8c1010; margin-top: 30px;
+          height: 45px;
+          line-height: 45px; font-size: 25px;
+          padding: 0 60px'>
+          <ul class="" >
             <% Refinery::Page.where('show_in_menu = 1').each do |page|
               page_url = refinery.url_for(page.url)
-              css_class = page_url.match(/blog/) ?  '' : '' %>
-              <li><%= link_to page.title, page_url, :class => css_class -%></li>
+              %>
+              <li class=''>
+              <%= link_to page.title, page_url, :class => 'main_page_menu  float-shadow' -%>
+              </li>
             <% end %>
           </ul>
         </div>
-        </nav>
       </header>
       <section id="page" style='clear: both; margin-top: 20px'>
         <%= yield %>
